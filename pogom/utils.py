@@ -203,6 +203,23 @@ def get_args():
     parser.add_argument('-el', '--encrypt-lib', help='Path to encrypt lib to be used instead of the shipped ones.')
     parser.add_argument('-odt', '--on-demand_timeout', help='Pause searching while web UI is inactive for this timeout(in seconds).', type=int, default=0)
     verbosity = parser.add_mutually_exclusive_group()
+    webhook_list = parser.add_mutually_exclusive_group()
+    webhook_list.add_argument('--webhook_send', help='Limit de number of elements on the webhook queue to the ones you want only',
+                        action='append', default=[])
+    parser.add_argument('-sl', '--speed_limit',
+                        help='Maximum speed between jumps in KM/hr, default 32 kph',
+                        type=float, default=32)
+    parser.add_argument('-clss', '--sscluster',
+                        help='Cluster spawnpoints before use (with -ss and no .json)', action='store_true', default=False)
+    parser.add_argument('-alt', '--altitude',
+                        help='default altitude in meter',
+                        type=int, default=13)
+    parser.add_argument('-altr', '--altitude_range',
+                        help='additional range for --altitude in meter',
+                        type=int, default=1)
+    parser.add_argument('-spcl', '--spawn_clustering',
+                        help='meter to spawn cluster',
+                        type=int, default=240)
     verbosity.add_argument('-v', '--verbose', help='Show debug messages from PomemonGo-Map and pgoapi. Optionally specify file to log to.', nargs='?', const='nofile', default=False, metavar='filename.log')
     verbosity.add_argument('-vv', '--very-verbose', help='Like verbose, but show debug messages from all modules as well.  Optionally specify file to log to.', nargs='?', const='nofile', default=False, metavar='filename.log')
     parser.set_defaults(DEBUG=False)
@@ -313,6 +330,11 @@ def get_args():
             errors.append('Missing `username` either as -u/--username, csv file using -ac, or in config.')
         else:
             num_usernames = len(args.username)
+            
+        if args.sscluster:
+            if args.spawnpoint_scanning is False:
+                errors.append('You enabled spawnpoint clustering, but without using spawnpoints!')
+
 
         if args.location is None:
             errors.append('Missing `location` either as -l/--location or in config.')
@@ -370,6 +392,7 @@ def get_args():
 
         args.encounter_blacklist = [int(i) for i in args.encounter_blacklist]
         args.encounter_whitelist = [int(i) for i in args.encounter_whitelist]
+        args.webhook_send = [int(i) for i in args.webhook_send]
 
         # Decide which scanning mode to use.
         if args.spawnpoint_scanning:

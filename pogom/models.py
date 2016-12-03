@@ -7,6 +7,7 @@ import sys
 import gc
 import time
 import geopy
+import cluster
 from peewee import SqliteDatabase, InsertQuery, \
     IntegerField, CharField, DoubleField, BooleanField, \
     DateTimeField, fn, DeleteQuery, CompositeKey, FloatField, TextField
@@ -411,6 +412,9 @@ class Pokemon(BaseModel):
             #           1800    (1800 + 2700) = 4500 % 3600 =  900 (30th minute, moved to arrive at 15th minute.)
             # todo: this DOES NOT ACCOUNT for pokemons that appear sooner and live longer, but you'll _always_ have at least 15 minutes, so it works well enough.
             location['time'] = cls.get_spawn_time(location['time'])
+
+        if args.sscluster:
+            filtered = cluster.main(filtered)
 
         return filtered
 
@@ -879,22 +883,23 @@ def parse_map(args, map_dict, step_location, db_update_queue, wh_update_queue, a
                 encounter_result = req.call()
             construct_pokemon_dict(pokemons, p, encounter_result, d_t, time_detail)
             if args.webhooks:
-                wh_update_queue.put(('pokemon', {
-                    'encounter_id': b64encode(str(p['encounter_id'])),
-                    'spawnpoint_id': p['spawn_point_id'],
-                    'pokemon_id': p['pokemon_data']['pokemon_id'],
-                    'latitude': p['latitude'],
-                    'longitude': p['longitude'],
-                    'disappear_time': calendar.timegm(d_t.timetuple()),
-                    'last_modified_time': p['last_modified_timestamp_ms'],
-                    'time_until_hidden_ms': p['time_till_hidden_ms'],
-                    'individual_attack': pokemons[p['encounter_id']]['individual_attack'],
-                    'individual_defense': pokemons[p['encounter_id']]['individual_defense'],
-                    'individual_stamina': pokemons[p['encounter_id']]['individual_stamina'],
-                    'move_1': pokemons[p['encounter_id']]['move_1'],
-                    'move_2': pokemons[p['encounter_id']]['move_2'],
-                    'time_detail': time_detail
-                }))
+                if (p['pokemon_data']['pokemon_id'] in args.webhook_send):
+                    wh_update_queue.put(('pokemon', {
+                        'encounter_id': b64encode(str(p['encounter_id'])),
+                        'spawnpoint_id': p['spawn_point_id'],
+                        'pokemon_id': p['pokemon_data']['pokemon_id'],
+                        'latitude': p['latitude'],
+                        'longitude': p['longitude'],
+                        'disappear_time': calendar.timegm(d_t.timetuple()),
+                        'last_modified_time': p['last_modified_timestamp_ms'],
+                        'time_until_hidden_ms': p['time_till_hidden_ms'],
+                        'individual_attack': pokemons[p['encounter_id']]['individual_attack'],
+                        'individual_defense': pokemons[p['encounter_id']]['individual_defense'],
+                        'individual_stamina': pokemons[p['encounter_id']]['individual_stamina'],
+                        'move_1': pokemons[p['encounter_id']]['move_1'],
+                        'move_2': pokemons[p['encounter_id']]['move_2'],
+                        'time_detail': time_detail
+                    }))
 
     if fortsfound:
         if config['parse_pokestops']:

@@ -163,12 +163,26 @@ def status_printer(threadStatus, search_items_queue_array, db_updates_queue, wh_
                         proxylen = max(proxylen, len(str(threadStatus[item]['proxy_display'])))
 
             # How pretty.
-            status = '{:10} | {:5} | {:' + str(userlen) + '} | {:' + str(proxylen) + '} | {:7} | {:6} | {:5} | {:7} | {:10}'
+            status = '{:10} | {:5} | {:' + str(userlen) + '} | {:' + str(proxylen) + '} | {:7} | {:6} | {:5} | {:7} | {:7} | {:10}'
 
             # Print the worker status.
-            status_text.append(status.format('Worker ID', 'Start', 'User', 'Proxy', 'Success', 'Failed', 'Empty', 'Skipped', 'Message'))
+            status_text.append(status.format('Worker ID', 'Start', 'User', 'Proxy', 'Success', 'Failed', 'Empty', 'Skipped', 'Captcha', 'Message'))
+            usercount = 0
+            successcount = 0
+            failcount = 0
+            emptycount = 0
+            skipcount = 0
+            captchacount = 0
             for item in sorted(threadStatus):
                 if(threadStatus[item]['type'] == 'Worker'):
+                    usercount += 1
+                    successcount += threadStatus[item]['success']
+                    failcount += threadStatus[item]['fail']
+                    emptycount += threadStatus[item]['noitems']
+                    skipcount += threadStatus[item]['skip']
+                    captchacount += threadStatus[item]['captcha']
+                    if usercount <= 1:  # item is actually a string = 'Worker 000', so we use another counted variable
+                        elapsed = now() - threadStatus[item]['starttime']   # We only need to set the time once
                     current_line += 1
 
                     # Skip over items that don't belong on this page.
@@ -177,7 +191,7 @@ def status_printer(threadStatus, search_items_queue_array, db_updates_queue, wh_
                     if current_line > end_line:
                         break
 
-                    status_text.append(status.format(item, time.strftime('%H:%M', time.localtime(threadStatus[item]['starttime'])), threadStatus[item]['user'], threadStatus[item]['proxy_display'], threadStatus[item]['success'], threadStatus[item]['fail'], threadStatus[item]['noitems'], threadStatus[item]['skip'], threadStatus[item]['message']))
+                    status_text.append(status.format(item, time.strftime('%H:%M', time.localtime(threadStatus[item]['starttime'])), threadStatus[item]['user'], threadStatus[item]['proxy_display'], threadStatus[item]['success'], threadStatus[item]['fail'], threadStatus[item]['noitems'], threadStatus[item]['skip'], threadStatus[item]['captcha'], threadStatus[item]['message']))
 
         elif display_type[0] == 'failedaccounts':
             status_text.append('-----------------------------------------')
@@ -196,6 +210,12 @@ def status_printer(threadStatus, search_items_queue_array, db_updates_queue, wh_
                 status_text.append(status.format(account['account']['username'], time.strftime('%H:%M:%S', time.localtime(account['last_fail_time'])), account['reason']))
 
         # Print the status_text for the current screen.
+        sph = successcount * 3600 / elapsed
+        eph = emptycount * 3600 / elapsed
+        cph = captchacount * 3600 / elapsed
+        ccost = cph * 0.003
+        cmonth = ccost * 730
+        status_text.append('Total active: {}  |  Success: {} ({}/hr) | Fails: {} | Empties: {} ({}/hr) | Skips {} | Captchas: {} ({}/hr)|${:2}/hr|${:2}/mo'.format(usercount, successcount, sph, failcount, emptycount, eph, skipcount, captchacount, cph, ccost, cmonth))
         status_text.append('Page {}/{}. Page number to switch pages. F to show on hold accounts. <ENTER> alone to switch between status and log view'.format(current_page[0], total_pages))
         # Clear the screen.
         os.system('cls' if os.name == 'nt' else 'clear')
@@ -251,6 +271,7 @@ def worker_status_db_thread(threads_status, name, db_updates_queue):
                     'fail': status['fail'],
                     'no_items': status['noitems'],
                     'skip': status['skip'],
+                    'captcha': status['captcha'],
                     'last_modified': datetime.utcnow(),
                     'message': status['message']
                 }
@@ -347,6 +368,7 @@ def search_overseer_thread(args, new_location_queue, pause_bit, heartb, db_updat
             'fail': 0,
             'noitems': 0,
             'skip': 0,
+            'captcha': 0,
             'user': '',
             'proxy_display': proxy_display,
             'proxy_url': proxy_url,
@@ -505,13 +527,13 @@ def search_worker_thread(args, account_queue, account_failures, search_items_que
             status['success'] = 0
             status['noitems'] = 0
             status['skip'] = 0
+            status['captcha'] = 0
             status['location'] = False
             status['last_scan_time'] = 0
 
             # Only sleep when consecutive_fails reaches max_failures, overall fails for stat purposes.
             consecutive_fails = 0
             consecutive_empties = 0
-            firstrun = True
 
             # Create the API instance this will use.
             if args.mock != '':
@@ -593,7 +615,7 @@ def search_worker_thread(args, account_queue, account_failures, search_items_que
                 check_login(args, account, api, step_location, status['proxy_url'])
 
                 # Putting this message after the check_login so the messages aren't out of order.
-                status['message'] = 'Searching at {:6f},{:6f},{:6f}'.format(step_location[0], step_location[1], step_location[2])
+                status['message'] = 'Searching at {:6f},{:6f}'.format(step_location[0], step_location[1])
                 log.info(status['message'])
 
                 # Make the actual request. (finally!)
@@ -614,9 +636,9 @@ def search_worker_thread(args, account_queue, account_failures, search_items_que
                     if args.captcha_solving:
                         captcha_url = response_dict['responses']['CHECK_CHALLENGE']['challenge_url']
                         if len(captcha_url) > 1:
+                            status['captcha'] += 1
                             if args.captcha_key is None:
-                                #val_chrome = chrome_verifier()
-                                val_chrome = True
+                                val_chrome = chrome_verifier()
                                 if not val_chrome:
                                     status['message'] = 'Account {} is encountering a captcha, But ChromeDriver is not Installed on your Python Scripts Folder'.format(account['username'])
                                     log.warning(status['message'])
@@ -638,8 +660,6 @@ def search_worker_thread(args, account_queue, account_failures, search_items_que
                                         if 'success' in response['responses']['VERIFY_CHALLENGE']:
                                             status['message'] = "Account {} successfully uncaptcha'd".format(account['username'])
                                             log.info(status['message'])
-                                            # Make another request for the same coordinate since the previous one was captcha'd
-                                            response_dict = map_request(api, step_location, args.jitter)
                                         else:
                                             status['message'] = "Account {} failed verifyChallenge, putting away account for now".format(account['username'])
                                             log.info(status['message'])
@@ -660,8 +680,6 @@ def search_worker_thread(args, account_queue, account_failures, search_items_que
                                     if 'success' in response['responses']['VERIFY_CHALLENGE']:
                                         status['message'] = "Account {} successfully uncaptcha'd".format(account['username'])
                                         log.info(status['message'])
-                                        # Make another request for the same coordinate since the previous one was captcha'd
-                                        response_dict = map_request(api, step_location, args.jitter)
                                     else:
                                         status['message'] = "Account {} failed verifyChallenge, putting away account for now".format(account['username'])
                                         log.info(status['message'])

@@ -1,0 +1,987 @@
+2016-11-29 17:31:07,635 [      MainThread][     runserver][   DEBUG] Using coordinates from CLI directly
+2016-11-29 17:31:07,684 [      MainThread][     runserver][   DEBUG] Local altitude is: 581.309692383m
+2016-11-29 17:31:07,684 [      MainThread][     runserver][    INFO] Parsed location is: 40.4256/-3.7291/581.3097 (lat/lng/alt)
+2016-11-29 17:31:07,684 [      MainThread][     runserver][    INFO] Parsing of Pokestops disabled.
+2016-11-29 17:31:07,686 [      MainThread][     runserver][    INFO] Encountering pokemon enabled.
+2016-11-29 17:31:07,687 [      MainThread][        models][    INFO] Connecting to MySQL database on pokemongo-mapdb.ctuxmnlbfuww.eu-central-1.rds.amazonaws.com:3306
+2016-11-29 17:31:08,941 [      MainThread][     runserver][   DEBUG] Starting db-updater worker thread 0
+2016-11-29 17:31:08,944 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 0
+2016-11-29 17:31:08,947 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 1
+2016-11-29 17:31:08,947 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 2
+2016-11-29 17:31:08,948 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 3
+2016-11-29 17:31:08,950 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 4
+2016-11-29 17:31:08,950 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 5
+2016-11-29 17:31:08,951 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 6
+2016-11-29 17:31:08,953 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 7
+2016-11-29 17:31:08,953 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 8
+2016-11-29 17:31:08,953 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 9
+2016-11-29 17:31:08,954 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 10
+2016-11-29 17:31:08,956 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 11
+2016-11-29 17:31:08,957 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 12
+2016-11-29 17:31:08,957 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 13
+2016-11-29 17:31:08,959 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 14
+2016-11-29 17:31:08,960 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 15
+2016-11-29 17:31:08,960 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 16
+2016-11-29 17:31:08,963 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 17
+2016-11-29 17:31:08,963 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 18
+2016-11-29 17:31:08,964 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 19
+2016-11-29 17:31:08,967 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 20
+2016-11-29 17:31:08,970 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 21
+2016-11-29 17:31:08,971 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 22
+2016-11-29 17:31:08,973 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 23
+2016-11-29 17:31:08,974 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 24
+2016-11-29 17:31:08,976 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 25
+2016-11-29 17:31:08,977 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 26
+2016-11-29 17:31:08,979 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 27
+2016-11-29 17:31:08,980 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 28
+2016-11-29 17:31:08,980 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 29
+2016-11-29 17:31:08,982 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 30
+2016-11-29 17:31:08,983 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 31
+2016-11-29 17:31:08,983 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 32
+2016-11-29 17:31:08,984 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 33
+2016-11-29 17:31:08,984 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 34
+2016-11-29 17:31:08,986 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 35
+2016-11-29 17:31:08,986 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 36
+2016-11-29 17:31:08,987 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 37
+2016-11-29 17:31:08,989 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 38
+2016-11-29 17:31:08,990 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 39
+2016-11-29 17:31:08,990 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 40
+2016-11-29 17:31:08,992 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 41
+2016-11-29 17:31:08,993 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 42
+2016-11-29 17:31:08,993 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 43
+2016-11-29 17:31:08,994 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 44
+2016-11-29 17:31:08,996 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 45
+2016-11-29 17:31:08,996 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 46
+2016-11-29 17:31:08,996 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 47
+2016-11-29 17:31:08,997 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 48
+2016-11-29 17:31:08,999 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 49
+2016-11-29 17:31:09,000 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 50
+2016-11-29 17:31:09,000 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 51
+2016-11-29 17:31:09,002 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 52
+2016-11-29 17:31:09,002 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 53
+2016-11-29 17:31:09,003 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 54
+2016-11-29 17:31:09,003 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 55
+2016-11-29 17:31:09,005 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 56
+2016-11-29 17:31:09,006 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 57
+2016-11-29 17:31:09,006 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 58
+2016-11-29 17:31:09,007 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 59
+2016-11-29 17:31:09,009 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 60
+2016-11-29 17:31:09,009 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 61
+2016-11-29 17:31:09,009 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 62
+2016-11-29 17:31:09,010 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 63
+2016-11-29 17:31:09,010 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 64
+2016-11-29 17:31:09,012 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 65
+2016-11-29 17:31:09,013 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 66
+2016-11-29 17:31:09,013 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 67
+2016-11-29 17:31:09,013 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 68
+2016-11-29 17:31:09,013 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 69
+2016-11-29 17:31:09,015 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 70
+2016-11-29 17:31:09,015 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 71
+2016-11-29 17:31:09,016 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 72
+2016-11-29 17:31:09,016 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 73
+2016-11-29 17:31:09,016 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 74
+2016-11-29 17:31:09,016 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 75
+2016-11-29 17:31:09,017 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 76
+2016-11-29 17:31:09,019 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 77
+2016-11-29 17:31:09,019 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 78
+2016-11-29 17:31:09,019 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 79
+2016-11-29 17:31:09,019 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 80
+2016-11-29 17:31:09,020 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 81
+2016-11-29 17:31:09,020 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 82
+2016-11-29 17:31:09,022 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 83
+2016-11-29 17:31:09,022 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 84
+2016-11-29 17:31:09,023 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 85
+2016-11-29 17:31:09,023 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 86
+2016-11-29 17:31:09,023 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 87
+2016-11-29 17:31:09,025 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 88
+2016-11-29 17:31:09,026 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 89
+2016-11-29 17:31:09,026 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 90
+2016-11-29 17:31:09,026 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 91
+2016-11-29 17:31:09,028 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 92
+2016-11-29 17:31:09,029 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 93
+2016-11-29 17:31:09,029 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 94
+2016-11-29 17:31:09,029 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 95
+2016-11-29 17:31:09,029 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 96
+2016-11-29 17:31:09,030 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 97
+2016-11-29 17:31:09,030 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 98
+2016-11-29 17:31:09,032 [      MainThread][     runserver][   DEBUG] Starting wh-updater worker thread 99
+2016-11-29 17:31:09,032 [      MainThread][     runserver][   DEBUG] Starting a SpawnScan search thread
+2016-11-29 17:31:09,033 [ search-overseer][        search][    INFO] Search overseer starting
+2016-11-29 17:31:09,033 [      MainThread][      __init__][   DEBUG] Computing cache-busting values...
+2016-11-29 17:31:09,033 [ search-overseer][        search][    INFO] Starting status printer thread
+2016-11-29 17:31:09,035 [ search-overseer][        search][    INFO] Starting account recycler thread
+2016-11-29 17:31:09,036 [ search-overseer][        search][    INFO] Starting status database thread
+2016-11-29 17:31:09,036 [status_worker_db][        search][    INFO] Clearing previous statuses for 'worker' worker
+2016-11-29 17:31:09,036 [ search-overseer][        search][    INFO] Starting search worker threads
+2016-11-29 17:31:09,036 [ search-overseer][        search][   DEBUG] Starting search worker thread 0
+2016-11-29 17:31:09,036 [ search-worker-0][        search][   DEBUG] Search worker thread starting
+2016-11-29 17:31:09,036 [ search-overseer][        search][   DEBUG] Starting search worker thread 1
+2016-11-29 17:31:09,036 [ search-worker-0][        search][    INFO] Waiting to get new account from the queue
+2016-11-29 17:31:09,036 [ search-worker-0][        search][    INFO] Switching to account mnbvcxzx0
+2016-11-29 17:31:09,038 [ search-worker-1][        search][   DEBUG] Search worker thread starting
+2016-11-29 17:31:09,038 [ search-overseer][        search][   DEBUG] Starting search worker thread 2
+2016-11-29 17:31:09,038 [ search-worker-1][        search][    INFO] Waiting to get new account from the queue
+2016-11-29 17:31:09,038 [ search-worker-1][        search][    INFO] Switching to account mnbvcxzx1
+2016-11-29 17:31:09,038 [ search-worker-2][        search][   DEBUG] Search worker thread starting
+2016-11-29 17:31:09,038 [ search-overseer][        search][   DEBUG] Starting search worker thread 3
+2016-11-29 17:31:09,039 [ search-worker-1][        search][   DEBUG] Delaying thread startup for 5.05 seconds
+2016-11-29 17:31:09,039 [ search-worker-2][        search][    INFO] Waiting to get new account from the queue
+2016-11-29 17:31:09,039 [ search-worker-2][        search][    INFO] Switching to account mnbvcxzx2
+2016-11-29 17:31:09,039 [ search-worker-3][        search][   DEBUG] Search worker thread starting
+2016-11-29 17:31:09,039 [ search-overseer][        search][   DEBUG] Starting search worker thread 4
+2016-11-29 17:31:09,039 [ search-worker-2][        search][   DEBUG] Delaying thread startup for 10.21 seconds
+2016-11-29 17:31:09,039 [ search-worker-3][        search][    INFO] Waiting to get new account from the queue
+2016-11-29 17:31:09,039 [ search-worker-3][        search][    INFO] Switching to account mnbvcxzx3
+2016-11-29 17:31:09,039 [ search-overseer][        search][   DEBUG] Starting search worker thread 5
+2016-11-29 17:31:09,039 [ search-worker-4][        search][   DEBUG] Search worker thread starting
+2016-11-29 17:31:09,039 [ search-worker-3][        search][   DEBUG] Delaying thread startup for 15.06 seconds
+2016-11-29 17:31:09,039 [ search-worker-4][        search][    INFO] Waiting to get new account from the queue
+2016-11-29 17:31:09,040 [ search-overseer][        search][   DEBUG] Starting search worker thread 6
+2016-11-29 17:31:09,040 [ search-worker-5][        search][   DEBUG] Search worker thread starting
+2016-11-29 17:31:09,040 [ search-worker-4][        search][    INFO] Switching to account mnbvcxzx4
+2016-11-29 17:31:09,040 [ search-worker-5][        search][    INFO] Waiting to get new account from the queue
+2016-11-29 17:31:09,040 [ search-worker-4][        search][   DEBUG] Delaying thread startup for 19.93 seconds
+2016-11-29 17:31:09,040 [ search-worker-6][        search][   DEBUG] Search worker thread starting
+2016-11-29 17:31:09,040 [ search-overseer][        search][   DEBUG] Starting search worker thread 7
+2016-11-29 17:31:09,040 [ search-worker-5][        search][    INFO] Switching to account mnbvcxzx5
+2016-11-29 17:31:09,042 [ search-worker-6][        search][    INFO] Waiting to get new account from the queue
+2016-11-29 17:31:09,042 [ search-worker-5][        search][   DEBUG] Delaying thread startup for 24.91 seconds
+2016-11-29 17:31:09,042 [ search-worker-6][        search][    INFO] Switching to account mnbvcxzx6
+2016-11-29 17:31:09,042 [ search-worker-7][        search][   DEBUG] Search worker thread starting
+2016-11-29 17:31:09,042 [ search-overseer][        search][   DEBUG] Starting search worker thread 8
+2016-11-29 17:31:09,042 [ search-worker-6][        search][   DEBUG] Delaying thread startup for 29.81 seconds
+2016-11-29 17:31:09,042 [ search-worker-7][        search][    INFO] Waiting to get new account from the queue
+2016-11-29 17:31:09,042 [ search-worker-7][        search][    INFO] Switching to account mnbvcxzx7
+2016-11-29 17:31:09,042 [ search-worker-8][        search][   DEBUG] Search worker thread starting
+2016-11-29 17:31:09,042 [ search-overseer][        search][   DEBUG] Starting search worker thread 9
+2016-11-29 17:31:09,042 [ search-worker-7][        search][   DEBUG] Delaying thread startup for 35.11 seconds
+2016-11-29 17:31:09,042 [ search-worker-8][        search][    INFO] Waiting to get new account from the queue
+2016-11-29 17:31:09,042 [ search-worker-8][        search][    INFO] Switching to account mnbvcxzx8
+2016-11-29 17:31:09,043 [ search-worker-9][        search][   DEBUG] Search worker thread starting
+2016-11-29 17:31:09,043 [ search-overseer][        search][   DEBUG] Starting search worker thread 10
+2016-11-29 17:31:09,043 [ search-worker-8][        search][   DEBUG] Delaying thread startup for 40.14 seconds
+2016-11-29 17:31:09,043 [ search-worker-9][        search][    INFO] Waiting to get new account from the queue
+2016-11-29 17:31:09,043 [ search-worker-9][        search][    INFO] Switching to account mnbvcxzx9
+2016-11-29 17:31:09,043 [search-worker-10][        search][   DEBUG] Search worker thread starting
+2016-11-29 17:31:09,043 [ search-overseer][        search][   DEBUG] Starting search worker thread 11
+2016-11-29 17:31:09,043 [ search-worker-9][        search][   DEBUG] Delaying thread startup for 45.13 seconds
+2016-11-29 17:31:09,045 [search-worker-10][        search][    INFO] Waiting to get new account from the queue
+2016-11-29 17:31:09,045 [search-worker-10][        search][    INFO] Switching to account mnbvcxzx10
+2016-11-29 17:31:09,045 [search-worker-11][        search][   DEBUG] Search worker thread starting
+2016-11-29 17:31:09,045 [ search-overseer][        search][   DEBUG] Starting search worker thread 12
+2016-11-29 17:31:09,045 [search-worker-10][        search][   DEBUG] Delaying thread startup for 49.81 seconds
+2016-11-29 17:31:09,045 [search-worker-11][        search][    INFO] Waiting to get new account from the queue
+2016-11-29 17:31:09,045 [search-worker-11][        search][    INFO] Switching to account mnbvcxzx11
+2016-11-29 17:31:09,046 [search-worker-12][        search][   DEBUG] Search worker thread starting
+2016-11-29 17:31:09,046 [ search-overseer][        search][   DEBUG] Starting search worker thread 13
+2016-11-29 17:31:09,046 [search-worker-11][        search][   DEBUG] Delaying thread startup for 54.99 seconds
+2016-11-29 17:31:09,046 [search-worker-12][        search][    INFO] Waiting to get new account from the queue
+2016-11-29 17:31:09,046 [search-worker-12][        search][    INFO] Switching to account mnbvcxzx12
+2016-11-29 17:31:09,046 [ search-overseer][        search][   DEBUG] Starting search worker thread 14
+2016-11-29 17:31:09,046 [search-worker-12][        search][   DEBUG] Delaying thread startup for 60.04 seconds
+2016-11-29 17:31:09,046 [search-worker-13][        search][   DEBUG] Search worker thread starting
+2016-11-29 17:31:09,046 [search-worker-13][        search][    INFO] Waiting to get new account from the queue
+2016-11-29 17:31:09,046 [search-worker-14][        search][   DEBUG] Search worker thread starting
+2016-11-29 17:31:09,046 [ search-overseer][        search][   DEBUG] Starting search worker thread 15
+2016-11-29 17:31:09,046 [search-worker-13][        search][    INFO] Switching to account mnbvcxzx13
+2016-11-29 17:31:09,046 [search-worker-14][        search][    INFO] Waiting to get new account from the queue
+2016-11-29 17:31:09,048 [search-worker-13][        search][   DEBUG] Delaying thread startup for 64.84 seconds
+2016-11-29 17:31:09,048 [search-worker-14][        search][    INFO] Switching to account mnbvcxzx14
+2016-11-29 17:31:09,048 [search-worker-15][        search][   DEBUG] Search worker thread starting
+2016-11-29 17:31:09,048 [ search-overseer][        search][   DEBUG] Starting search worker thread 16
+2016-11-29 17:31:09,048 [search-worker-14][        search][   DEBUG] Delaying thread startup for 69.86 seconds
+2016-11-29 17:31:09,048 [search-worker-15][        search][    INFO] Waiting to get new account from the queue
+2016-11-29 17:31:09,048 [search-worker-15][        search][    INFO] Switching to account mnbvcxzx15
+2016-11-29 17:31:09,049 [search-worker-16][        search][   DEBUG] Search worker thread starting
+2016-11-29 17:31:09,049 [ search-overseer][        search][   DEBUG] Starting search worker thread 17
+2016-11-29 17:31:09,049 [search-worker-15][        search][   DEBUG] Delaying thread startup for 74.81 seconds
+2016-11-29 17:31:09,049 [search-worker-16][        search][    INFO] Waiting to get new account from the queue
+2016-11-29 17:31:09,049 [search-worker-16][        search][    INFO] Switching to account mnbvcxzx16
+2016-11-29 17:31:09,049 [search-worker-17][        search][   DEBUG] Search worker thread starting
+2016-11-29 17:31:09,049 [ search-overseer][        search][   DEBUG] Starting search worker thread 18
+2016-11-29 17:31:09,049 [search-worker-16][        search][   DEBUG] Delaying thread startup for 80.15 seconds
+2016-11-29 17:31:09,049 [search-worker-17][        search][    INFO] Waiting to get new account from the queue
+2016-11-29 17:31:09,049 [search-worker-17][        search][    INFO] Switching to account mnbvcxzx17
+2016-11-29 17:31:09,049 [search-worker-18][        search][   DEBUG] Search worker thread starting
+2016-11-29 17:31:09,049 [ search-overseer][        search][   DEBUG] Starting search worker thread 19
+2016-11-29 17:31:09,049 [search-worker-17][        search][   DEBUG] Delaying thread startup for 85.22 seconds
+2016-11-29 17:31:09,049 [search-worker-18][        search][    INFO] Waiting to get new account from the queue
+2016-11-29 17:31:09,051 [search-worker-18][        search][    INFO] Switching to account mnbvcxzx18
+2016-11-29 17:31:09,051 [search-worker-19][        search][   DEBUG] Search worker thread starting
+2016-11-29 17:31:09,051 [ search-overseer][        search][   DEBUG] Starting search worker thread 20
+2016-11-29 17:31:09,051 [search-worker-18][        search][   DEBUG] Delaying thread startup for 90.03 seconds
+2016-11-29 17:31:09,051 [search-worker-19][        search][    INFO] Waiting to get new account from the queue
+2016-11-29 17:31:09,052 [search-worker-19][        search][    INFO] Switching to account mnbvcxzx19
+2016-11-29 17:31:09,052 [search-worker-20][        search][   DEBUG] Search worker thread starting
+2016-11-29 17:31:09,052 [ search-overseer][        search][   DEBUG] Starting search worker thread 21
+2016-11-29 17:31:09,052 [search-worker-19][        search][   DEBUG] Delaying thread startup for 94.75 seconds
+2016-11-29 17:31:09,052 [search-worker-20][        search][    INFO] Waiting to get new account from the queue
+2016-11-29 17:31:09,052 [search-worker-20][        search][    INFO] Switching to account mnbvcxzx20
+2016-11-29 17:31:09,052 [ search-overseer][        search][   DEBUG] Starting search worker thread 22
+2016-11-29 17:31:09,052 [search-worker-20][        search][   DEBUG] Delaying thread startup for 100.05 seconds
+2016-11-29 17:31:09,052 [search-worker-21][        search][   DEBUG] Search worker thread starting
+2016-11-29 17:31:09,052 [search-worker-21][        search][    INFO] Waiting to get new account from the queue
+2016-11-29 17:31:09,052 [search-worker-22][        search][   DEBUG] Search worker thread starting
+2016-11-29 17:31:09,052 [ search-overseer][        search][   DEBUG] Starting search worker thread 23
+2016-11-29 17:31:09,052 [search-worker-21][        search][    INFO] Switching to account mnbvcxzx21
+2016-11-29 17:31:09,052 [search-worker-22][        search][    INFO] Waiting to get new account from the queue
+2016-11-29 17:31:09,052 [search-worker-21][        search][   DEBUG] Delaying thread startup for 105.03 seconds
+2016-11-29 17:31:09,052 [search-worker-22][        search][    INFO] Switching to account mnbvcxzx22
+2016-11-29 17:31:09,053 [search-worker-23][        search][   DEBUG] Search worker thread starting
+2016-11-29 17:31:09,053 [ search-overseer][        search][   DEBUG] Starting search worker thread 24
+2016-11-29 17:31:09,053 [search-worker-22][        search][   DEBUG] Delaying thread startup for 109.79 seconds
+2016-11-29 17:31:09,053 [search-worker-23][        search][    INFO] Waiting to get new account from the queue
+2016-11-29 17:31:09,053 [search-worker-23][        search][    INFO] Switching to account mnbvcxzx23
+2016-11-29 17:31:09,053 [search-worker-24][        search][   DEBUG] Search worker thread starting
+2016-11-29 17:31:09,053 [ search-overseer][        search][   DEBUG] Starting search worker thread 25
+2016-11-29 17:31:09,053 [search-worker-23][        search][   DEBUG] Delaying thread startup for 114.85 seconds
+2016-11-29 17:31:09,055 [search-worker-24][        search][    INFO] Waiting to get new account from the queue
+2016-11-29 17:31:09,055 [search-worker-25][        search][   DEBUG] Search worker thread starting
+2016-11-29 17:31:09,055 [ search-overseer][        search][   DEBUG] Starting search worker thread 26
+2016-11-29 17:31:09,055 [search-worker-24][        search][    INFO] Switching to account mnbvcxzx24
+2016-11-29 17:31:09,055 [search-worker-25][        search][    INFO] Waiting to get new account from the queue
+2016-11-29 17:31:09,055 [search-worker-24][        search][   DEBUG] Delaying thread startup for 119.96 seconds
+2016-11-29 17:31:09,055 [search-worker-25][        search][    INFO] Switching to account mnbvcxzx25
+2016-11-29 17:31:09,055 [search-worker-26][        search][   DEBUG] Search worker thread starting
+2016-11-29 17:31:09,055 [ search-overseer][        search][   DEBUG] Starting search worker thread 27
+2016-11-29 17:31:09,055 [search-worker-25][        search][   DEBUG] Delaying thread startup for 125.08 seconds
+2016-11-29 17:31:09,055 [search-worker-26][        search][    INFO] Waiting to get new account from the queue
+2016-11-29 17:31:09,055 [search-worker-26][        search][    INFO] Switching to account mnbvcxzx26
+2016-11-29 17:31:09,056 [search-worker-27][        search][   DEBUG] Search worker thread starting
+2016-11-29 17:31:09,056 [ search-overseer][        search][   DEBUG] Starting search worker thread 28
+2016-11-29 17:31:09,056 [search-worker-26][        search][   DEBUG] Delaying thread startup for 129.79 seconds
+2016-11-29 17:31:09,056 [search-worker-27][        search][    INFO] Waiting to get new account from the queue
+2016-11-29 17:31:09,056 [search-worker-27][        search][    INFO] Switching to account mnbvcxzx27
+2016-11-29 17:31:09,056 [search-worker-28][        search][   DEBUG] Search worker thread starting
+2016-11-29 17:31:09,056 [search-worker-27][        search][   DEBUG] Delaying thread startup for 134.97 seconds
+2016-11-29 17:31:09,056 [ search-overseer][        search][   DEBUG] Starting search worker thread 29
+2016-11-29 17:31:09,056 [search-worker-28][        search][    INFO] Waiting to get new account from the queue
+2016-11-29 17:31:09,058 [search-worker-28][        search][    INFO] Switching to account mnbvcxzx28
+2016-11-29 17:31:09,058 [search-worker-29][        search][   DEBUG] Search worker thread starting
+2016-11-29 17:31:09,058 [ search-overseer][        search][   DEBUG] Starting search worker thread 30
+2016-11-29 17:31:09,058 [search-worker-28][        search][   DEBUG] Delaying thread startup for 140.02 seconds
+2016-11-29 17:31:09,058 [search-worker-29][        search][    INFO] Waiting to get new account from the queue
+2016-11-29 17:31:09,059 [search-worker-29][        search][    INFO] Switching to account mnbvcxzx29
+2016-11-29 17:31:09,059 [search-worker-30][        search][   DEBUG] Search worker thread starting
+2016-11-29 17:31:09,059 [ search-overseer][        search][   DEBUG] Starting search worker thread 31
+2016-11-29 17:31:09,059 [search-worker-29][        search][   DEBUG] Delaying thread startup for 144.79 seconds
+2016-11-29 17:31:09,059 [search-worker-30][        search][    INFO] Waiting to get new account from the queue
+2016-11-29 17:31:09,059 [search-worker-30][        search][    INFO] Switching to account mnbvcxzx30
+2016-11-29 17:31:09,059 [search-worker-31][        search][   DEBUG] Search worker thread starting
+2016-11-29 17:31:09,059 [search-worker-30][        search][   DEBUG] Delaying thread startup for 150.03 seconds
+2016-11-29 17:31:09,059 [ search-overseer][        search][   DEBUG] Starting search worker thread 32
+2016-11-29 17:31:09,059 [search-worker-31][        search][    INFO] Waiting to get new account from the queue
+2016-11-29 17:31:09,059 [search-worker-31][        search][    INFO] Switching to account mnbvcxzx31
+2016-11-29 17:31:09,059 [search-worker-32][        search][   DEBUG] Search worker thread starting
+2016-11-29 17:31:09,059 [ search-overseer][        search][   DEBUG] Starting search worker thread 33
+2016-11-29 17:31:09,059 [search-worker-31][        search][   DEBUG] Delaying thread startup for 154.97 seconds
+2016-11-29 17:31:09,059 [search-worker-32][        search][    INFO] Waiting to get new account from the queue
+2016-11-29 17:31:09,061 [search-worker-32][        search][    INFO] Switching to account mnbvcxzx32
+2016-11-29 17:31:09,061 [search-worker-33][        search][   DEBUG] Search worker thread starting
+2016-11-29 17:31:09,061 [ search-overseer][        search][   DEBUG] Starting search worker thread 34
+2016-11-29 17:31:09,061 [search-worker-32][        search][   DEBUG] Delaying thread startup for 160.03 seconds
+2016-11-29 17:31:09,061 [search-worker-33][        search][    INFO] Waiting to get new account from the queue
+2016-11-29 17:31:09,061 [search-worker-33][        search][    INFO] Switching to account mnbvcxzx33
+2016-11-29 17:31:09,062 [search-worker-34][        search][   DEBUG] Search worker thread starting
+2016-11-29 17:31:09,062 [ search-overseer][        search][   DEBUG] Starting search worker thread 35
+2016-11-29 17:31:09,062 [search-worker-33][        search][   DEBUG] Delaying thread startup for 165.24 seconds
+2016-11-29 17:31:09,062 [search-worker-34][        search][    INFO] Waiting to get new account from the queue
+2016-11-29 17:31:09,062 [search-worker-34][        search][    INFO] Switching to account mnbvcxzx34
+2016-11-29 17:31:09,062 [search-worker-35][        search][   DEBUG] Search worker thread starting
+2016-11-29 17:31:09,062 [ search-overseer][        search][   DEBUG] Starting search worker thread 36
+2016-11-29 17:31:09,062 [search-worker-34][        search][   DEBUG] Delaying thread startup for 169.77 seconds
+2016-11-29 17:31:09,062 [search-worker-35][        search][    INFO] Waiting to get new account from the queue
+2016-11-29 17:31:09,062 [search-worker-35][        search][    INFO] Switching to account mnbvcxzx35
+2016-11-29 17:31:09,062 [search-worker-36][        search][   DEBUG] Search worker thread starting
+2016-11-29 17:31:09,062 [ search-overseer][        search][    INFO] New location caught, moving search grid
+2016-11-29 17:31:09,062 [search-worker-35][        search][   DEBUG] Delaying thread startup for 175.13 seconds
+2016-11-29 17:31:09,062 [search-worker-36][        search][    INFO] Waiting to get new account from the queue
+2016-11-29 17:31:09,063 [search-worker-36][        search][    INFO] Switching to account mnbvcxzx36
+2016-11-29 17:31:09,063 [search-worker-36][        search][   DEBUG] Delaying thread startup for 180.06 seconds
+2016-11-29 17:31:09,068 [ search-overseer][        search][   DEBUG] Search queue empty, scheduling more items to scan
+2016-11-29 17:31:09,068 [ search-overseer][    schedulers][   DEBUG] Loading spawn points from database
+2016-11-29 17:31:09,068 [ search-overseer][        models][    INFO] Finding spawn points 3 steps away
+2016-11-29 17:31:09,130 [      MainThread][      __init__][   DEBUG] Finished computing cache-busting values
+2016-11-29 17:31:09,440 [    db-updater-0][        models][   DEBUG] Inserting items 0 to 1
+2016-11-29 17:31:09,471 [      db-cleaner][        models][    INFO] Regular database cleaning complete
+2016-11-29 17:31:09,532 [    db-updater-0][        models][   DEBUG] Upserted to MainWorker, 1 records (upsert queue remaining: 1)
+2016-11-29 17:31:09,532 [    db-updater-0][        models][   DEBUG] Inserting items 0 to 37
+2016-11-29 17:31:09,645 [    db-updater-0][        models][   DEBUG] Upserted to WorkerStatus, 37 records (upsert queue remaining: 0)
+2016-11-29 17:31:09,930 [ search-overseer][    schedulers][    INFO] Total of 85 spawns to track
+2016-11-29 17:31:09,930 [ search-overseer][    schedulers][   DEBUG] Added location (1, (40.4260834763618, -3.7314895170319, 40.32), 1480437126, 1480438026)
+2016-11-29 17:31:09,930 [ search-overseer][    schedulers][   DEBUG] Added location (2, (40.4241929274283, -3.7284751779917, 40.32), 1480437155, 1480438055)
+2016-11-29 17:31:09,930 [ search-overseer][    schedulers][   DEBUG] Added location (3, (40.4271348542083, -3.73093423059121, 40.32), 1480437220, 1480438120)
+2016-11-29 17:31:09,930 [ search-overseer][    schedulers][   DEBUG] Added location (4, (40.4248574099311, -3.73006164989384, 40.32), 1480437253, 1480438153)
+2016-11-29 17:31:09,930 [ search-overseer][    schedulers][   DEBUG] Added location (5, (40.4242541506494, -3.72657147721322, 40.32), 1480437302, 1480438202)
+2016-11-29 17:31:09,930 [ search-overseer][    schedulers][   DEBUG] Added location (6, (40.4274090956886, -3.7298236759451, 40.32), 1480437367, 1480438267)
+2016-11-29 17:31:09,930 [ search-overseer][    schedulers][   DEBUG] Added location (7, (40.4263369328149, -3.72855450040826, 40.32), 1480437474, 1480438374)
+2016-11-29 17:31:09,930 [ search-overseer][    schedulers][   DEBUG] Added location (8, (40.4267038094172, -3.72950637908354, 40.32), 1480437481, 1480438381)
+2016-11-29 17:31:09,930 [ search-overseer][    schedulers][   DEBUG] Added location (9, (40.4252396033056, -3.73053760114074, 40.32), 1480437515, 1480438415)
+2016-11-29 17:31:09,930 [ search-overseer][    schedulers][   DEBUG] Added location (10, (40.4242698792436, -3.72855450040826, 40.32), 1480437527, 1480438427)
+2016-11-29 17:31:09,930 [ search-overseer][    schedulers][   DEBUG] Added location (11, (40.4264168013122, -3.73101355685345, 40.32), 1480437571, 1480438471)
+2016-11-29 17:31:09,930 [ search-overseer][    schedulers][   DEBUG] Added location (12, (40.4275068118879, -3.73172749879575, 40.32), 1480437640, 1480438540)
+2016-11-29 17:31:09,930 [ search-overseer][    schedulers][   DEBUG] Added location (13, (40.4255261944002, -3.72657147721322, 40.32), 1480437668, 1480438568)
+2016-11-29 17:31:09,930 [ search-overseer][    schedulers][   DEBUG] Added location (14, (40.4268058612574, -3.72633351964061, 40.32), 1480437710, 1480438610)
+2016-11-29 17:31:09,930 [ search-overseer][    schedulers][   DEBUG] Added location (15, (40.4266272092202, -3.7318861539252, 40.32), 1480437711, 1480438611)
+2016-11-29 17:31:09,930 [ search-overseer][    schedulers][   DEBUG] Added location (16, (40.4255032394695, -3.72728535663076, 40.32), 1480437768, 1480438668)
+2016-11-29 17:31:09,930 [ search-overseer][    schedulers][   DEBUG] Added location (17, (40.4243570375728, -3.72831653353077, 40.32), 1480437776, 1480438676)
+2016-11-29 17:31:09,930 [ search-overseer][    schedulers][   DEBUG] Added location (18, (40.4249441729573, -3.72736467718637, 40.32), 1480437803, 1480438703)
+2016-11-29 17:31:09,930 [ search-overseer][    schedulers][   DEBUG] Added location (19, (40.4269116754514, -3.73045827562279, 40.32), 1480437829, 1480438729)
+2016-11-29 17:31:09,930 [ search-overseer][    schedulers][   DEBUG] Added location (20, (40.4258854414934, -3.72776128182543, 40.32), 1480437898, 1480438798)
+2016-11-29 17:31:09,930 [ search-overseer][    schedulers][   DEBUG] Added location (21, (40.4243519343485, -3.7284751779917, 40.32), 1480437902, 1480438802)
+2016-11-29 17:31:09,930 [ search-overseer][    schedulers][   DEBUG] Added location (22, (40.4268296224276, -3.73053760114074, 40.32), 1480437915, 1480438815)
+2016-11-29 17:31:09,930 [ search-overseer][    schedulers][   DEBUG] Added location (23, (40.4254696426637, -3.7258576078453, 40.32), 1480438050, 1480438950)
+2016-11-29 17:31:09,930 [ search-overseer][    schedulers][   DEBUG] Added location (24, (40.424510511412, -3.72601624461411, 40.32), 1480438063, 1480438963)
+2016-11-29 17:31:09,931 [ search-overseer][    schedulers][   DEBUG] Added location (25, (40.4277938257337, -3.73022029981327, 40.32), 1480438078, 1480438978)
+2016-11-29 17:31:09,931 [ search-overseer][    schedulers][   DEBUG] Added location (26, (40.4265681409398, -3.73125153638446, 40.32), 1480438129, 1480439029)
+2016-11-29 17:31:09,931 [ search-overseer][    schedulers][   DEBUG] Added location (27, (40.4272398859095, -3.73014097479153, 40.32), 1480438180, 1480439080)
+2016-11-29 17:31:09,931 [ search-overseer][    schedulers][   DEBUG] Added location (28, (40.4275990805631, -3.73133086314289, 40.32), 1480438228, 1480439128)
+2016-11-29 17:31:09,931 [ search-overseer][    schedulers][   DEBUG] Added location (29, (40.4268959865484, -3.7284751779917, 40.32), 1480438290, 1480439190)
+2016-11-29 17:31:09,931 [ search-overseer][    schedulers][   DEBUG] Added location (30, (40.4257782409887, -3.73109288323974, 40.32), 1480438299, 1480439199)
+2016-11-29 17:31:09,931 [ search-overseer][    schedulers][   DEBUG] Added location (31, (40.4270144909017, -3.73220346567265, 40.32), 1480438351, 1480439251)
+2016-11-29 17:31:09,931 [ search-overseer][    schedulers][   DEBUG] Added location (32, (40.4265860157419, -3.73069625254878, 40.32), 1480438408, 1480439308)
+2016-11-29 17:31:09,931 [ search-overseer][    schedulers][   DEBUG] Added location (33, (40.4281347939731, -3.72950637908354, 40.32), 1480438415, 1480439315)
+2016-11-29 17:31:09,931 [ search-overseer][    schedulers][   DEBUG] Added location (34, (40.4262705673833, -3.73061692678273, 40.32), 1480438490, 1480439390)
+2016-11-29 17:31:09,931 [ search-overseer][    schedulers][   DEBUG] Added location (35, (40.4257833481106, -3.73093423059121, 40.32), 1480438503, 1480439403)
+2016-11-29 17:31:09,931 [ search-overseer][    schedulers][   DEBUG] Added location (36, (40.4268835870688, -3.73133086314289, 40.32), 1480438522, 1480439422)
+2016-11-29 17:31:09,931 [ search-overseer][    schedulers][   DEBUG] Added location (37, (40.4239977861055, -3.72712671589172, 40.32), 1480438523, 1480439423)
+2016-11-29 17:31:09,931 [ search-overseer][    schedulers][   DEBUG] Added location (38, (40.4256294522328, -3.73077557843887, 40.32), 1480438552, 1480439452)
+2016-11-29 17:31:09,931 [ search-overseer][    schedulers][   DEBUG] Added location (39, (40.4271089657698, -3.72926840773995, 40.32), 1480438622, 1480439522)
+2016-11-29 17:31:09,931 [ search-overseer][    schedulers][   DEBUG] Added location (40, (40.4265269403195, -3.73006164989384, 40.32), 1480438684, 1480439584)
+2016-11-29 17:31:09,931 [ search-overseer][    schedulers][   DEBUG] Added location (41, (40.4267242272597, -3.7288717913151, 40.32), 1480438706, 1480439606)
+2016-11-29 17:31:09,931 [ search-overseer][    schedulers][   DEBUG] Added location (42, (40.4260014215292, -3.73156884416247, 40.32), 1480438707, 1480439607)
+2016-11-29 17:31:09,931 [ search-overseer][    schedulers][   DEBUG] Added location (43, (40.4249059034729, -3.72855450040826, 40.32), 1480438740, 1480439640)
+2016-11-29 17:31:09,931 [ search-overseer][    schedulers][   DEBUG] Added location (44, (40.4250805990266, -3.73053760114074, 40.32), 1480438791, 1480439691)
+2016-11-29 17:31:09,931 [ search-overseer][    schedulers][   DEBUG] Added location (45, (40.4255550573363, -3.73061692678273, 40.32), 1480438815, 1480439715)
+2016-11-29 17:31:09,931 [ search-overseer][    schedulers][   DEBUG] Added location (46, (40.4255572302421, -3.72807856776982, 40.32), 1480438923, 1480439823)
+2016-11-29 17:31:09,931 [ search-overseer][    schedulers][   DEBUG] Added location (47, (40.4261910666973, -3.73061692678273, 40.32), 1480439076, 1480439976)
+2016-11-29 17:31:09,933 [ search-overseer][    schedulers][   DEBUG] Added location (48, (40.4261268844935, -3.73014097479153, 40.32), 1480439090, 1480439990)
+2016-11-29 17:31:09,933 [ search-overseer][    schedulers][   DEBUG] Added location (49, (40.4278707712379, -3.73029962495906, 40.32), 1480439114, 1480440014)
+2016-11-29 17:31:09,933 [ search-overseer][    schedulers][   DEBUG] Added location (50, (40.4267782044268, -3.72966502726621, 40.32), 1480439154, 1480440054)
+2016-11-29 17:31:09,933 [ search-overseer][    schedulers][   DEBUG] Added location (51, (40.4263040995158, -3.73204480955084, 40.32), 1480439277, 1480440177)
+2016-11-29 17:31:09,933 [ search-overseer][    schedulers][   DEBUG] Added location (52, (40.424410607326, -3.72665079665223, 40.32), 1480439292, 1480440192)
+2016-11-29 17:31:09,933 [ search-overseer][    schedulers][   DEBUG] Added location (53, (40.4273398068566, -3.72950637908354, 40.32), 1480439314, 1480440214)
+2016-11-29 17:31:09,933 [ search-overseer][    schedulers][   DEBUG] Added location (54, (40.425700498606, -3.72609556318463, 40.32), 1480439321, 1480440221)
+2016-11-29 17:31:09,933 [ search-overseer][    schedulers][   DEBUG] Added location (55, (40.4281913173578, -3.73022029981327, 40.32), 1480439326, 1480440226)
+2016-11-29 17:31:09,933 [ search-overseer][    schedulers][   DEBUG] Added location (56, (40.4262450317053, -3.73141019002537, 40.32), 1480439329, 1480440229)
+2016-11-29 17:31:09,933 [ search-overseer][    schedulers][   DEBUG] Added location (57, (40.4250980761296, -3.7275233186698, 40.32), 1480439419, 1480440319)
+2016-11-29 17:31:09,933 [ search-overseer][    schedulers][   DEBUG] Added location (58, (40.4273168322343, -3.73022029981327, 40.32), 1480439549, 1480440449)
+2016-11-29 17:31:09,933 [ search-overseer][    schedulers][   DEBUG] Added location (59, (40.4251750274634, -3.72760263959761, 40.32), 1480439553, 1480440453)
+2016-11-29 17:31:09,933 [ search-overseer][    schedulers][   DEBUG] Added location (60, (40.4263759367152, -3.73228279391962, 40.32), 1480439556, 1480440456)
+2016-11-29 17:31:09,933 [ search-overseer][    schedulers][   DEBUG] Added location (61, (40.4279272897087, -3.73101355685345, 40.32), 1480439567, 1480440467)
+2016-11-29 17:31:09,933 [ search-overseer][    schedulers][   DEBUG] Added location (62, (40.4266702441225, -3.72807856776982, 40.32), 1480439596, 1480440496)
+2016-11-29 17:31:09,933 [ search-overseer][    schedulers][   DEBUG] Added location (63, (40.4270323706577, -3.73164817141708, 40.32), 1480439600, 1480440500)
+2016-11-29 17:31:09,933 [ search-overseer][    schedulers][   DEBUG] Added location (64, (40.4257961148933, -3.73053760114074, 40.32), 1480439632, 1480440532)
+2016-11-29 17:31:09,933 [ search-overseer][    schedulers][   DEBUG] Added location (65, (40.4270269138177, -3.72934773139709, 40.32), 1480439658, 1480440558)
+2016-11-29 17:31:09,933 [ search-overseer][    schedulers][   DEBUG] Added location (66, (40.4247877183408, -3.72728535663076, 40.32), 1480439731, 1480440631)
+2016-11-29 17:31:09,933 [ search-overseer][    schedulers][   DEBUG] Added location (67, (40.4248672211187, -3.72728535663076, 40.32), 1480439756, 1480440656)
+2016-11-29 17:31:09,933 [ search-overseer][    schedulers][   DEBUG] Added location (68, (40.4279783498635, -3.72942705517829, 40.32), 1480439765, 1480440665)
+2016-11-29 17:31:09,933 [ search-overseer][    schedulers][   DEBUG] Added location (69, (40.426880260984, -3.72649215789828, 40.32), 1480439848, 1480440748)
+2016-11-29 17:31:09,933 [ search-overseer][    schedulers][   DEBUG] Added location (70, (40.4250032667531, -3.72799924609763, 40.32), 1480440001, 1480440901)
+2016-11-29 17:31:09,933 [ search-overseer][    schedulers][   DEBUG] Added location (71, (40.4257986680746, -3.73045827562279, 40.32), 1480440027, 1480440927)
+2016-11-29 17:31:09,934 [ search-overseer][    schedulers][   DEBUG] Added location (72, (40.4275162579093, -3.72649215789828, 40.32), 1480440137, 1480441037)
+2016-11-29 17:31:09,934 [ search-overseer][    schedulers][   DEBUG] Added location (73, (40.4265090687958, -3.73061692678273, 40.32), 1480440163, 1480441063)
+2016-11-29 17:31:09,934 [ search-overseer][    schedulers][   DEBUG] Added location (74, (40.4249390711184, -3.7275233186698, 40.32), 1480440175, 1480441075)
+2016-11-29 17:31:09,934 [ search-overseer][    schedulers][   DEBUG] Added location (75, (40.425326764632, -3.73029962495906, 40.32), 1480440265, 1480441165)
+2016-11-29 17:31:09,934 [ search-overseer][    schedulers][   DEBUG] Added location (76, (40.4260597498784, -3.72728535663076, 40.32), 1480440296, 1480441196)
+2016-11-29 17:31:09,934 [ search-overseer][    schedulers][   DEBUG] Added location (77, (40.4251954339118, -3.72696807564895, 40.32), 1480440299, 1480441199)
+2016-11-29 17:31:09,934 [ search-overseer][    schedulers][   DEBUG] Added location (78, (40.426827069173, -3.73061692678273, 40.32), 1480440301, 1480441201)
+2016-11-29 17:31:09,934 [ search-overseer][    schedulers][   DEBUG] Added location (79, (40.4266169918891, -3.73220346567265, 40.32), 1480440473, 1480441373)
+2016-11-29 17:31:09,934 [ search-overseer][    schedulers][   DEBUG] Added location (80, (40.4276939011827, -3.73085490445301, 40.32), 1480440530, 1480441430)
+2016-11-29 17:31:09,934 [ search-overseer][    schedulers][   DEBUG] Added location (81, (40.4266268616867, -3.72942705517829, 40.32), 1480440584, 1480441484)
+2016-11-29 17:31:09,934 [ search-overseer][    schedulers][   DEBUG] Added location (82, (40.4276195092606, -3.73069625254878, 40.32), 1480440615, 1480441515)
+2016-11-29 17:31:09,934 [ search-overseer][    schedulers][   DEBUG] Added location (83, (40.4262421205103, -3.72903043751287, 40.32), 1480440622, 1480441522)
+2016-11-29 17:31:09,934 [ search-overseer][    schedulers][   DEBUG] Added location (84, (40.4278215017611, -3.72688875571367, 40.32), 1480440639, 1480441539)
+2016-11-29 17:31:09,934 [ search-overseer][    schedulers][   DEBUG] Added location (85, (40.4261243315412, -3.73022029981327, 40.32), 1480440648, 1480441548)
+2016-11-29 17:31:09,934 [ search-overseer][        search][   DEBUG] Search queue empty, scheduling more items to scan
+2016-11-29 17:31:09,934 [ search-overseer][    schedulers][   DEBUG] Loading spawn points from database
+2016-11-29 17:31:09,934 [ search-overseer][        models][    INFO] Finding spawn points 3 steps away
+2016-11-29 17:31:10,358 [ search-overseer][    schedulers][    INFO] Total of 70 spawns to track
+2016-11-29 17:31:10,358 [ search-overseer][    schedulers][   DEBUG] Added location (1, (40.4267024349184, -3.7221297866542, 40.32), 1480437093, 1480437993)
+2016-11-29 17:31:10,358 [ search-overseer][    schedulers][   DEBUG] Added location (2, (40.4266942282674, -3.71990908730072, 40.32), 1480437132, 1480438032)
+2016-11-29 17:31:10,358 [ search-overseer][    schedulers][   DEBUG] Added location (3, (40.4267126225736, -3.72181253793289, 40.32), 1480437137, 1480438037)
+2016-11-29 17:31:10,358 [ search-overseer][    schedulers][   DEBUG] Added location (4, (40.4279025717796, -3.72189184992708, 40.32), 1480437159, 1480438059)
+2016-11-29 17:31:10,359 [ search-overseer][    schedulers][   DEBUG] Added location (5, (40.4284463265117, -3.7222884117594, 40.32), 1480437190, 1480438090)
+2016-11-29 17:31:10,359 [ search-overseer][    schedulers][   DEBUG] Added location (6, (40.4279010004566, -3.72688875571367, 40.32), 1480437217, 1480438117)
+2016-11-29 17:31:10,359 [ search-overseer][    schedulers][   DEBUG] Added location (7, (40.4250206725133, -3.72498511448807, 40.32), 1480437232, 1480438132)
+2016-11-29 17:31:10,359 [ search-overseer][    schedulers][   DEBUG] Added location (8, (40.4269307474483, -3.72244703736095, 40.32), 1480437303, 1480438203)
+2016-11-29 17:31:10,359 [ search-overseer][    schedulers][   DEBUG] Added location (9, (40.4282363748803, -3.72387469011056, 40.32), 1480437374, 1480438274)
+2016-11-29 17:31:10,361 [ search-overseer][    schedulers][   DEBUG] Added location (10, (40.4279616937973, -3.72252635034786, 40.32), 1480437435, 1480438335)
+2016-11-29 17:31:10,361 [ search-overseer][    schedulers][   DEBUG] Added location (11, (40.429856896727, -3.72292291714373, 40.32), 1480437438, 1480438338)
+2016-11-29 17:31:10,361 [ search-overseer][    schedulers][   DEBUG] Added location (12, (40.4273109082087, -3.72546101809453, 40.32), 1480437550, 1480438450)
+2016-11-29 17:31:10,361 [ search-overseer][    schedulers][   DEBUG] Added location (13, (40.4278281664232, -3.72173322606279, 40.32), 1480437605, 1480438505)
+2016-11-29 17:31:10,361 [ search-overseer][    schedulers][   DEBUG] Added location (14, (40.4279056381757, -3.7242712674536, 40.32), 1480437630, 1480438530)
+2016-11-29 17:31:10,361 [ search-overseer][    schedulers][   DEBUG] Added location (15, (40.4266865918197, -3.72014701472067, 40.32), 1480437672, 1480438572)
+2016-11-29 17:31:10,361 [ search-overseer][    schedulers][   DEBUG] Added location (16, (40.4268058612574, -3.72633351964061, 40.32), 1480437710, 1480438610)
+2016-11-29 17:31:10,361 [ search-overseer][    schedulers][   DEBUG] Added location (17, (40.426773728892, -3.71990908730072, 40.32), 1480437718, 1480438618)
+2016-11-29 17:31:10,361 [ search-overseer][    schedulers][   DEBUG] Added location (18, (40.4274439341761, -3.7237953750142, 40.32), 1480437806, 1480438706)
+2016-11-29 17:31:10,361 [ search-overseer][    schedulers][   DEBUG] Added location (19, (40.4268639827848, -3.72205047428774, 40.32), 1480437939, 1480438839)
+2016-11-29 17:31:10,362 [ search-overseer][    schedulers][   DEBUG] Added location (20, (40.4278490745852, -3.72355743046961, 40.32), 1480437952, 1480438852)
+2016-11-29 17:31:10,362 [ search-overseer][    schedulers][   DEBUG] Added location (21, (40.429854349038, -3.72300223087517, 40.32), 1480438024, 1480438924)
+2016-11-29 17:31:10,362 [ search-overseer][    schedulers][   DEBUG] Added location (22, (40.4254696426637, -3.7258576078453, 40.32), 1480438050, 1480438950)
+2016-11-29 17:31:10,362 [ search-overseer][    schedulers][   DEBUG] Added location (23, (40.4272354569119, -3.72038494325752, 40.32), 1480438074, 1480438974)
+2016-11-29 17:31:10,362 [ search-overseer][    schedulers][   DEBUG] Added location (24, (40.4277879034094, -3.72546101809453, 40.32), 1480438151, 1480439051)
+2016-11-29 17:31:10,364 [ search-overseer][    schedulers][   DEBUG] Added location (25, (40.4270739110796, -3.720464253018, 40.32), 1480438235, 1480439135)
+2016-11-29 17:31:10,364 [ search-overseer][    schedulers][   DEBUG] Added location (26, (40.4277058549506, -3.72554033579654, 40.32), 1480438237, 1480439137)
+2016-11-29 17:31:10,364 [ search-overseer][    schedulers][   DEBUG] Added location (27, (40.4276717148543, -3.72165391431679, 40.32), 1480438374, 1480439274)
+2016-11-29 17:31:10,364 [ search-overseer][    schedulers][   DEBUG] Added location (28, (40.4278765442248, -3.72022632410886, 40.32), 1480438414, 1480439314)
+2016-11-29 17:31:10,364 [ search-overseer][    schedulers][   DEBUG] Added location (29, (40.4280004276146, -3.7237953750142, 40.32), 1480438532, 1480439432)
+2016-11-29 17:31:10,365 [ search-overseer][    schedulers][   DEBUG] Added location (30, (40.4284595783856, -3.72435058329444, 40.32), 1480438746, 1480439646)
+2016-11-29 17:31:10,365 [ search-overseer][    schedulers][   DEBUG] Added location (31, (40.428377016506, -3.72197116204536, 40.32), 1480438845, 1480439745)
+2016-11-29 17:31:10,365 [ search-overseer][    schedulers][   DEBUG] Added location (32, (40.4284829910012, -3.72609556318463, 40.32), 1480438886, 1480439786)
+2016-11-29 17:31:10,365 [ search-overseer][    schedulers][   DEBUG] Added location (33, (40.4286537084172, -3.72078149330091, 40.32), 1480438899, 1480439799)
+2016-11-29 17:31:10,365 [ search-overseer][    schedulers][   DEBUG] Added location (34, (40.4278383529747, -3.72141597982332, 40.32), 1480438909, 1480439809)
+2016-11-29 17:31:10,365 [ search-overseer][    schedulers][   DEBUG] Added location (35, (40.4259583528584, -3.72054356290258, 40.32), 1480438985, 1480439885)
+2016-11-29 17:31:10,365 [ search-overseer][    schedulers][   DEBUG] Added location (36, (40.4296112499628, -3.72561965362262, 40.32), 1480439046, 1480439946)
+2016-11-29 17:31:10,365 [ search-overseer][    schedulers][   DEBUG] Added location (37, (40.4270051529522, -3.72260566345886, 40.32), 1480439143, 1480440043)
+2016-11-29 17:31:10,365 [ search-overseer][    schedulers][   DEBUG] Added location (38, (40.4264894001701, -3.72133666857369, 40.32), 1480439157, 1480440057)
+2016-11-29 17:31:10,365 [ search-overseer][    schedulers][   DEBUG] Added location (39, (40.4298105150793, -3.72189184992708, 40.32), 1480439169, 1480440069)
+2016-11-29 17:31:10,367 [ search-overseer][    schedulers][   DEBUG] Added location (40, (40.4277109539476, -3.7253817005166, 40.32), 1480439192, 1480440092)
+2016-11-29 17:31:10,367 [ search-overseer][    schedulers][   DEBUG] Added location (41, (40.4277435737073, -3.72189184992708, 40.32), 1480439208, 1480440108)
+2016-11-29 17:31:10,367 [ search-overseer][    schedulers][   DEBUG] Added location (42, (40.4277823153834, -3.7231608587103, 40.32), 1480439314, 1480440214)
+2016-11-29 17:31:10,367 [ search-overseer][    schedulers][   DEBUG] Added location (43, (40.425700498606, -3.72609556318463, 40.32), 1480439321, 1480440221)
+2016-11-29 17:31:10,367 [ search-overseer][    schedulers][   DEBUG] Added location (44, (40.4268492049995, -3.72498511448807, 40.32), 1480439364, 1480440264)
+2016-11-29 17:31:10,368 [ search-overseer][    schedulers][   DEBUG] Added location (45, (40.427643137728, -3.72006770545659, 40.32), 1480439390, 1480440290)
+2016-11-29 17:31:10,368 [ search-overseer][    schedulers][   DEBUG] Added location (46, (40.4285258246277, -3.7222884117594, 40.32), 1480439415, 1480440315)
+2016-11-29 17:31:10,368 [ search-overseer][    schedulers][   DEBUG] Added location (47, (40.4263666012896, -3.72268497669395, 40.32), 1480439417, 1480440317)
+2016-11-29 17:31:10,368 [ search-overseer][    schedulers][   DEBUG] Added location (48, (40.4273791809501, -3.72086080368187, 40.32), 1480439435, 1480440335)
+2016-11-29 17:31:10,368 [ search-overseer][    schedulers][   DEBUG] Added location (49, (40.4264766672234, -3.72173322606279, 40.32), 1480439479, 1480440379)
+2016-11-29 17:31:10,368 [ search-overseer][    schedulers][   DEBUG] Added location (50, (40.4286078697815, -3.72220909914475, 40.32), 1480439501, 1480440401)
+2016-11-29 17:31:10,368 [ search-overseer][    schedulers][   DEBUG] Added location (51, (40.4271457734644, -3.72070218304403, 40.32), 1480439542, 1480440442)
+2016-11-29 17:31:10,368 [ search-overseer][    schedulers][   DEBUG] Added location (52, (40.427905118623, -3.72181253793289, 40.32), 1480439545, 1480440445)
+2016-11-29 17:31:10,368 [ search-overseer][    schedulers][   DEBUG] Added location (53, (40.4259792843868, -3.72236772449813, 40.32), 1480439561, 1480440461)
+2016-11-29 17:31:10,368 [ search-overseer][    schedulers][   DEBUG] Added location (54, (40.4272278193896, -3.72062287291126, 40.32), 1480439663, 1480440563)
+2016-11-29 17:31:10,368 [ search-overseer][    schedulers][   DEBUG] Added location (55, (40.4296341943811, -3.7249057976546, 40.32), 1480439704, 1480440604)
+2016-11-29 17:31:10,369 [ search-overseer][    schedulers][   DEBUG] Added location (56, (40.4274357632673, -3.72157460269487, 40.32), 1480439787, 1480440687)
+2016-11-29 17:31:10,369 [ search-overseer][    schedulers][   DEBUG] Added location (57, (40.426880260984, -3.72649215789828, 40.32), 1480439848, 1480440748)
+2016-11-29 17:31:10,369 [ search-overseer][    schedulers][   DEBUG] Added location (58, (40.4262585361239, -3.72109873556935, 40.32), 1480439910, 1480440810)
+2016-11-29 17:31:10,369 [ search-overseer][    schedulers][   DEBUG] Added location (59, (40.4272563889876, -3.72220909914475, 40.32), 1480439966, 1480440866)
+2016-11-29 17:31:10,369 [ search-overseer][    schedulers][   DEBUG] Added location (60, (40.4257662483927, -3.72157460269487, 40.32), 1480439978, 1480440878)
+2016-11-29 17:31:10,371 [ search-overseer][    schedulers][   DEBUG] Added location (61, (40.4265617888072, -3.72403332067553, 40.32), 1480439979, 1480440879)
+2016-11-29 17:31:10,371 [ search-overseer][    schedulers][   DEBUG] Added location (62, (40.4267156928482, -3.72419195173683, 40.32), 1480440090, 1480440990)
+2016-11-29 17:31:10,371 [ search-overseer][    schedulers][   DEBUG] Added location (63, (40.4300877416624, -3.7231608587103, 40.32), 1480440094, 1480440994)
+2016-11-29 17:31:10,371 [ search-overseer][    schedulers][   DEBUG] Added location (64, (40.4275162579093, -3.72649215789828, 40.32), 1480440137, 1480441037)
+2016-11-29 17:31:10,371 [ search-overseer][    schedulers][   DEBUG] Added location (65, (40.4279484060283, -3.720464253018, 40.32), 1480440256, 1480441156)
+2016-11-29 17:31:10,371 [ search-overseer][    schedulers][   DEBUG] Added location (66, (40.4280075364721, -3.72109873556935, 40.32), 1480440420, 1480441320)
+2016-11-29 17:31:10,371 [ search-overseer][    schedulers][   DEBUG] Added location (67, (40.4250950767713, -3.72514374852726, 40.32), 1480440429, 1480441329)
+2016-11-29 17:31:10,371 [ search-overseer][    schedulers][   DEBUG] Added location (68, (40.4258406568413, -3.72173322606279, 40.32), 1480440477, 1480441377)
+2016-11-29 17:31:10,371 [ search-overseer][    schedulers][   DEBUG] Added location (69, (40.4273333415913, -3.7222884117594, 40.32), 1480440630, 1480441530)
+2016-11-29 17:31:10,371 [ search-overseer][    schedulers][   DEBUG] Added location (70, (40.4278215017611, -3.72688875571367, 40.32), 1480440639, 1480441539)
+2016-11-29 17:31:10,372 [ search-overseer][        search][   DEBUG] Search queue empty, scheduling more items to scan
+2016-11-29 17:31:10,372 [ search-overseer][    schedulers][   DEBUG] Loading spawn points from database
+2016-11-29 17:31:10,372 [ search-overseer][        models][    INFO] Finding spawn points 3 steps away
+2016-11-29 17:31:10,806 [ search-overseer][    schedulers][    INFO] Total of 52 spawns to track
+2016-11-29 17:31:10,808 [ search-overseer][    schedulers][   DEBUG] Added location (1, (40.4283503132544, -3.73022029981327, 40.32), 1480437089, 1480437989)
+2016-11-29 17:31:10,808 [ search-overseer][    schedulers][   DEBUG] Added location (2, (40.4279010004566, -3.72688875571367, 40.32), 1480437217, 1480438117)
+2016-11-29 17:31:10,809 [ search-overseer][    schedulers][   DEBUG] Added location (3, (40.4307496826911, -3.7248264809452, 40.32), 1480437217, 1480438117)
+2016-11-29 17:31:10,809 [ search-overseer][    schedulers][   DEBUG] Added location (4, (40.4304138572871, -3.7253817005166, 40.32), 1480437244, 1480438144)
+2016-11-29 17:31:10,809 [ search-overseer][    schedulers][   DEBUG] Added location (5, (40.4319297822302, -3.72768196064949, 40.32), 1480437301, 1480438201)
+2016-11-29 17:31:10,809 [ search-overseer][    schedulers][   DEBUG] Added location (6, (40.4301400808537, -3.72895111435195, 40.32), 1480437319, 1480438219)
+2016-11-29 17:31:10,809 [ search-overseer][    schedulers][   DEBUG] Added location (7, (40.4308431163908, -3.73180682629845, 40.32), 1480437323, 1480438223)
+2016-11-29 17:31:10,809 [ search-overseer][    schedulers][   DEBUG] Added location (8, (40.4307096666626, -3.73101355685345, 40.32), 1480437347, 1480438247)
+2016-11-29 17:31:10,809 [ search-overseer][    schedulers][   DEBUG] Added location (9, (40.4312249303423, -3.7298236759451, 40.32), 1480437461, 1480438361)
+2016-11-29 17:31:10,809 [ search-overseer][    schedulers][   DEBUG] Added location (10, (40.430593241708, -3.72474716435988, 40.32), 1480437485, 1480438385)
+2016-11-29 17:31:10,809 [ search-overseer][    schedulers][   DEBUG] Added location (11, (40.4306097410942, -3.73164817141708, 40.32), 1480437762, 1480438662)
+2016-11-29 17:31:10,809 [ search-overseer][    schedulers][   DEBUG] Added location (12, (40.4312121658, -3.73022029981327, 40.32), 1480437773, 1480438673)
+2016-11-29 17:31:10,809 [ search-overseer][    schedulers][   DEBUG] Added location (13, (40.4329657351778, -3.72760263959761, 40.32), 1480437802, 1480438702)
+2016-11-29 17:31:10,809 [ search-overseer][    schedulers][   DEBUG] Added location (14, (40.43208366579, -3.72784060312543, 40.32), 1480437918, 1480438818)
+2016-11-29 17:31:10,809 [ search-overseer][    schedulers][   DEBUG] Added location (15, (40.4306604293167, -3.72760263959761, 40.32), 1480437936, 1480438836)
+2016-11-29 17:31:10,809 [ search-overseer][    schedulers][   DEBUG] Added location (16, (40.431306976996, -3.72974435154363, 40.32), 1480437947, 1480438847)
+2016-11-29 17:31:10,809 [ search-overseer][    schedulers][   DEBUG] Added location (17, (40.4319450883482, -3.72720603619921, 40.32), 1480437996, 1480438896)
+2016-11-29 17:31:10,811 [ search-overseer][    schedulers][   DEBUG] Added location (18, (40.4315986263519, -3.72561965362262, 40.32), 1480438150, 1480439050)
+2016-11-29 17:31:10,811 [ search-overseer][    schedulers][   DEBUG] Added location (19, (40.4319884442671, -3.7258576078453, 40.32), 1480438158, 1480439058)
+2016-11-29 17:31:10,811 [ search-overseer][    schedulers][   DEBUG] Added location (20, (40.4296350293622, -3.7298236759451, 40.32), 1480438333, 1480439233)
+2016-11-29 17:31:10,811 [ search-overseer][    schedulers][   DEBUG] Added location (21, (40.4312088051871, -3.7253817005166, 40.32), 1480438343, 1480439243)
+2016-11-29 17:31:10,811 [ search-overseer][    schedulers][   DEBUG] Added location (22, (40.4281347939731, -3.72950637908354, 40.32), 1480438415, 1480439315)
+2016-11-29 17:31:10,811 [ search-overseer][    schedulers][   DEBUG] Added location (23, (40.4308661019874, -3.73109288323974, 40.32), 1480438434, 1480439334)
+2016-11-29 17:31:10,811 [ search-overseer][    schedulers][   DEBUG] Added location (24, (40.4292936934078, -3.72807856776982, 40.32), 1480438509, 1480439409)
+2016-11-29 17:31:10,811 [ search-overseer][    schedulers][   DEBUG] Added location (25, (40.4311428835249, -3.72990300047063, 40.32), 1480438593, 1480439493)
+2016-11-29 17:31:10,811 [ search-overseer][    schedulers][   DEBUG] Added location (26, (40.4308427746215, -3.72934773139709, 40.32), 1480438837, 1480439737)
+2016-11-29 17:31:10,811 [ search-overseer][    schedulers][   DEBUG] Added location (27, (40.4329015492283, -3.72712671589172, 40.32), 1480438840, 1480439740)
+2016-11-29 17:31:10,812 [ search-overseer][    schedulers][   DEBUG] Added location (28, (40.4284829910012, -3.72609556318463, 40.32), 1480438886, 1480439786)
+2016-11-29 17:31:10,812 [ search-overseer][    schedulers][   DEBUG] Added location (29, (40.4328297094478, -3.72688875571367, 40.32), 1480438918, 1480439818)
+2016-11-29 17:31:10,812 [ search-overseer][    schedulers][   DEBUG] Added location (30, (40.4296112499628, -3.72561965362262, 40.32), 1480439046, 1480439946)
+2016-11-29 17:31:10,812 [ search-overseer][    schedulers][   DEBUG] Added location (31, (40.4300583836208, -3.7314895170319, 40.32), 1480439122, 1480440022)
+2016-11-29 17:31:10,812 [ search-overseer][    schedulers][   DEBUG] Added location (32, (40.4307522317366, -3.72474716435988, 40.32), 1480439168, 1480440068)
+2016-11-29 17:31:10,812 [ search-overseer][    schedulers][   DEBUG] Added location (33, (40.4290836591983, -3.72966502726621, 40.32), 1480439279, 1480440179)
+2016-11-29 17:31:10,812 [ search-overseer][    schedulers][   DEBUG] Added location (34, (40.4281913173578, -3.73022029981327, 40.32), 1480439326, 1480440226)
+2016-11-29 17:31:10,812 [ search-overseer][    schedulers][   DEBUG] Added location (35, (40.430029125938, -3.72498511448807, 40.32), 1480439442, 1480440342)
+2016-11-29 17:31:10,812 [ search-overseer][    schedulers][   DEBUG] Added location (36, (40.4284323640267, -3.73014097479153, 40.32), 1480439459, 1480440359)
+2016-11-29 17:31:10,812 [ search-overseer][    schedulers][   DEBUG] Added location (37, (40.4312019531149, -3.73053760114074, 40.32), 1480439523, 1480440423)
+2016-11-29 17:31:10,812 [ search-overseer][    schedulers][   DEBUG] Added location (38, (40.4317499642753, -3.7258576078453, 40.32), 1480439527, 1480440427)
+2016-11-29 17:31:10,812 [ search-overseer][    schedulers][   DEBUG] Added location (39, (40.4320551873877, -3.72625420069788, 40.32), 1480439664, 1480440564)
+2016-11-29 17:31:10,812 [ search-overseer][    schedulers][   DEBUG] Added location (40, (40.4296341943811, -3.7249057976546, 40.32), 1480439704, 1480440604)
+2016-11-29 17:31:10,812 [ search-overseer][    schedulers][   DEBUG] Added location (41, (40.4279783498635, -3.72942705517829, 40.32), 1480439765, 1480440665)
+2016-11-29 17:31:10,812 [ search-overseer][    schedulers][   DEBUG] Added location (42, (40.4284400226324, -3.72990300047063, 40.32), 1480439894, 1480440794)
+2016-11-29 17:31:10,812 [ search-overseer][    schedulers][   DEBUG] Added location (43, (40.4313652439543, -3.72546101809453, 40.32), 1480439993, 1480440893)
+2016-11-29 17:31:10,812 [ search-overseer][    schedulers][   DEBUG] Added location (44, (40.4328989983993, -3.72720603619921, 40.32), 1480440075, 1480440975)
+2016-11-29 17:31:10,812 [ search-overseer][    schedulers][   DEBUG] Added location (45, (40.4305962400487, -3.72712671589172, 40.32), 1480440141, 1480441041)
+2016-11-29 17:31:10,812 [ search-overseer][    schedulers][   DEBUG] Added location (46, (40.4310761527546, -3.72950637908354, 40.32), 1480440214, 1480441114)
+2016-11-29 17:31:10,812 [ search-overseer][    schedulers][   DEBUG] Added location (47, (40.4302268186421, -3.72625420069788, 40.32), 1480440292, 1480441192)
+2016-11-29 17:31:10,813 [ search-overseer][    schedulers][   DEBUG] Added location (48, (40.4321533195905, -3.73061692678273, 40.32), 1480440368, 1480441268)
+2016-11-29 17:31:10,813 [ search-overseer][    schedulers][   DEBUG] Added location (49, (40.4319013012292, -3.72609556318463, 40.32), 1480440487, 1480441387)
+2016-11-29 17:31:10,813 [ search-overseer][    schedulers][   DEBUG] Added location (50, (40.431140330676, -3.72998232512021, 40.32), 1480440582, 1480441482)
+2016-11-29 17:31:10,813 [ search-overseer][    schedulers][   DEBUG] Added location (51, (40.4321091760095, -3.7270473957083, 40.32), 1480440609, 1480441509)
+2016-11-29 17:31:10,813 [ search-overseer][    schedulers][   DEBUG] Added location (52, (40.4278215017611, -3.72688875571367, 40.32), 1480440639, 1480441539)
+2016-11-29 17:31:10,813 [ search-overseer][        search][   DEBUG] Search queue empty, scheduling more items to scan
+2016-11-29 17:31:10,813 [ search-overseer][    schedulers][   DEBUG] Loading spawn points from database
+2016-11-29 17:31:10,813 [ search-overseer][        models][    INFO] Finding spawn points 3 steps away
+2016-11-29 17:31:11,236 [ search-overseer][    schedulers][    INFO] Total of 63 spawns to track
+2016-11-29 17:31:11,236 [ search-overseer][    schedulers][   DEBUG] Added location (1, (40.427371361932, -3.73593202736375, 40.32), 1480437084, 1480437984)
+2016-11-29 17:31:11,236 [ search-overseer][    schedulers][   DEBUG] Added location (2, (40.4276121601904, -3.73339340240144, 40.32), 1480437147, 1480438047)
+2016-11-29 17:31:11,236 [ search-overseer][    schedulers][   DEBUG] Added location (3, (40.4266016641404, -3.73267943701509, 40.32), 1480437180, 1480438080)
+2016-11-29 17:31:11,236 [ search-overseer][    schedulers][   DEBUG] Added location (4, (40.4307766869807, -3.73386938490736, 40.32), 1480437194, 1480438094)
+2016-11-29 17:31:11,236 [ search-overseer][    schedulers][   DEBUG] Added location (5, (40.4271348542083, -3.73093423059121, 40.32), 1480437220, 1480438120)
+2016-11-29 17:31:11,236 [ search-overseer][    schedulers][   DEBUG] Added location (6, (40.4277046986298, -3.735456025509, 40.32), 1480437385, 1480438285)
+2016-11-29 17:31:11,236 [ search-overseer][    schedulers][   DEBUG] Added location (7, (40.4297585846798, -3.73339340240144, 40.32), 1480437394, 1480438294)
+2016-11-29 17:31:11,236 [ search-overseer][    schedulers][   DEBUG] Added location (8, (40.4258197149258, -3.73474203109873, 40.32), 1480437448, 1480438348)
+2016-11-29 17:31:11,236 [ search-overseer][    schedulers][   DEBUG] Added location (9, (40.4272044437602, -3.73371072357591, 40.32), 1480437494, 1480438394)
+2016-11-29 17:31:11,236 [ search-overseer][    schedulers][   DEBUG] Added location (10, (40.4286331001405, -3.7362493644141, 40.32), 1480437505, 1480438405)
+2016-11-29 17:31:11,236 [ search-overseer][    schedulers][   DEBUG] Added location (11, (40.4303971025949, -3.73331407241791, 40.32), 1480437540, 1480438440)
+2016-11-29 17:31:11,237 [ search-overseer][    schedulers][   DEBUG] Added location (12, (40.4265224372736, -3.7351386934197, 40.32), 1480437598, 1480438498)
+2016-11-29 17:31:11,237 [ search-overseer][    schedulers][   DEBUG] Added location (13, (40.4299998792587, -3.73577335958273, 40.32), 1480437604, 1480438504)
+2016-11-29 17:31:11,237 [ search-overseer][    schedulers][   DEBUG] Added location (14, (40.4302202239276, -3.73386938490736, 40.32), 1480437618, 1480438518)
+2016-11-29 17:31:11,237 [ search-overseer][    schedulers][   DEBUG] Added location (15, (40.4275068118879, -3.73172749879575, 40.32), 1480437640, 1480438540)
+2016-11-29 17:31:11,237 [ search-overseer][    schedulers][   DEBUG] Added location (16, (40.4283276437348, -3.73339340240144, 40.32), 1480437648, 1480438548)
+2016-11-29 17:31:11,237 [ search-overseer][    schedulers][   DEBUG] Added location (17, (40.4271533207081, -3.7352973592163, 40.32), 1480437684, 1480438584)
+2016-11-29 17:31:11,237 [ search-overseer][    schedulers][   DEBUG] Added location (18, (40.4266272092202, -3.7318861539252, 40.32), 1480437711, 1480438611)
+2016-11-29 17:31:11,237 [ search-overseer][    schedulers][   DEBUG] Added location (19, (40.4282685869218, -3.7327587660063, 40.32), 1480437749, 1480438649)
+2016-11-29 17:31:11,237 [ search-overseer][    schedulers][   DEBUG] Added location (20, (40.4274736035006, -3.7327587660063, 40.32), 1480437756, 1480438656)
+2016-11-29 17:31:11,237 [ search-overseer][    schedulers][   DEBUG] Added location (21, (40.4279378197251, -3.73315541282298, 40.32), 1480438019, 1480438919)
+2016-11-29 17:31:11,237 [ search-overseer][    schedulers][   DEBUG] Added location (22, (40.4272427707162, -3.73252077940477, 40.32), 1480438061, 1480438961)
+2016-11-29 17:31:11,239 [ search-overseer][    schedulers][   DEBUG] Added location (23, (40.4298894633224, -3.73426604040658, 40.32), 1480438115, 1480439015)
+2016-11-29 17:31:11,239 [ search-overseer][    schedulers][   DEBUG] Added location (24, (40.4276709175737, -3.73156884416247, 40.32), 1480438218, 1480439118)
+2016-11-29 17:31:11,239 [ search-overseer][    schedulers][   DEBUG] Added location (25, (40.4275990805631, -3.73133086314289, 40.32), 1480438228, 1480439128)
+2016-11-29 17:31:11,239 [ search-overseer][    schedulers][   DEBUG] Added location (26, (40.4288020725362, -3.733472732509, 40.32), 1480438332, 1480439232)
+2016-11-29 17:31:11,239 [ search-overseer][    schedulers][   DEBUG] Added location (27, (40.4270144909017, -3.73220346567265, 40.32), 1480438351, 1480439251)
+2016-11-29 17:31:11,239 [ search-overseer][    schedulers][   DEBUG] Added location (28, (40.4282634770402, -3.73291742436085, 40.32), 1480438403, 1480439303)
+2016-11-29 17:31:11,239 [ search-overseer][    schedulers][   DEBUG] Added location (29, (40.4290712240028, -3.73252077940477, 40.32), 1480438434, 1480439334)
+2016-11-29 17:31:11,239 [ search-overseer][    schedulers][   DEBUG] Added location (30, (40.4274506072962, -3.733472732509, 40.32), 1480438465, 1480439365)
+2016-11-29 17:31:11,239 [ search-overseer][    schedulers][   DEBUG] Added location (31, (40.4296049585761, -3.73569402587826, 40.32), 1480438486, 1480439386)
+2016-11-29 17:31:11,239 [ search-overseer][    schedulers][   DEBUG] Added location (32, (40.4268835870688, -3.73133086314289, 40.32), 1480438522, 1480439422)
+2016-11-29 17:31:11,239 [ search-overseer][    schedulers][   DEBUG] Added location (33, (40.4310202808957, -3.73371072357591, 40.32), 1480438525, 1480439425)
+2016-11-29 17:31:11,240 [ search-overseer][    schedulers][   DEBUG] Added location (34, (40.4282353685151, -3.73379005417962, 40.32), 1480438535, 1480439435)
+2016-11-29 17:31:11,240 [ search-overseer][    schedulers][   DEBUG] Added location (35, (40.428271141775, -3.73267943701509, 40.32), 1480438555, 1480439455)
+2016-11-29 17:31:11,240 [ search-overseer][    schedulers][   DEBUG] Added location (36, (40.4277432797058, -3.7367253737103, 40.32), 1480438588, 1480439488)
+2016-11-29 17:31:11,240 [ search-overseer][    schedulers][   DEBUG] Added location (37, (40.428019873042, -3.73307608321156, 40.32), 1480438783, 1480439683)
+2016-11-29 17:31:11,240 [ search-overseer][    schedulers][   DEBUG] Added location (38, (40.4297841354727, -3.73260010814791, 40.32), 1480438995, 1480439895)
+2016-11-29 17:31:11,240 [ search-overseer][    schedulers][   DEBUG] Added location (39, (40.4275326614808, -3.73339340240144, 40.32), 1480439010, 1480439910)
+2016-11-29 17:31:11,240 [ search-overseer][    schedulers][   DEBUG] Added location (40, (40.4310818840648, -3.73426604040658, 40.32), 1480439096, 1480439996)
+2016-11-29 17:31:11,240 [ search-overseer][    schedulers][   DEBUG] Added location (41, (40.4300583836208, -3.7314895170319, 40.32), 1480439122, 1480440022)
+2016-11-29 17:31:11,240 [ search-overseer][    schedulers][   DEBUG] Added location (42, (40.426522164022, -3.73267943701509, 40.32), 1480439197, 1480440097)
+2016-11-29 17:31:11,240 [ search-overseer][    schedulers][   DEBUG] Added location (43, (40.4278023136789, -3.73736005971709, 40.32), 1480439275, 1480440175)
+2016-11-29 17:31:11,240 [ search-overseer][    schedulers][   DEBUG] Added location (44, (40.4263040995158, -3.73204480955084, 40.32), 1480439277, 1480440177)
+2016-11-29 17:31:11,240 [ search-overseer][    schedulers][   DEBUG] Added location (45, (40.4290967682681, -3.73172749879575, 40.32), 1480439308, 1480440208)
+2016-11-29 17:31:11,240 [ search-overseer][    schedulers][   DEBUG] Added location (46, (40.4280811789231, -3.73117220975007, 40.32), 1480439359, 1480440259)
+2016-11-29 17:31:11,240 [ search-overseer][    schedulers][   DEBUG] Added location (47, (40.4299612904769, -3.73450403519452, 40.32), 1480439359, 1480440259)
+2016-11-29 17:31:11,240 [ search-overseer][    schedulers][   DEBUG] Added location (48, (40.4283043495513, -3.73164817141708, 40.32), 1480439441, 1480440341)
+2016-11-29 17:31:11,240 [ search-overseer][    schedulers][   DEBUG] Added location (49, (40.4276683635473, -3.73164817141708, 40.32), 1480439491, 1480440391)
+2016-11-29 17:31:11,240 [ search-overseer][    schedulers][   DEBUG] Added location (50, (40.4263759367152, -3.73228279391962, 40.32), 1480439556, 1480440456)
+2016-11-29 17:31:11,240 [ search-overseer][    schedulers][   DEBUG] Added location (51, (40.4279272897087, -3.73101355685345, 40.32), 1480439567, 1480440467)
+2016-11-29 17:31:11,240 [ search-overseer][    schedulers][   DEBUG] Added location (52, (40.4306228094268, -3.73371072357591, 40.32), 1480439573, 1480440473)
+2016-11-29 17:31:11,240 [ search-overseer][    schedulers][   DEBUG] Added location (53, (40.4270323706577, -3.73164817141708, 40.32), 1480439600, 1480440500)
+2016-11-29 17:31:11,240 [ search-overseer][    schedulers][   DEBUG] Added location (54, (40.4268378798853, -3.73521802625599, 40.32), 1480439616, 1480440516)
+2016-11-29 17:31:11,240 [ search-overseer][    schedulers][   DEBUG] Added location (55, (40.43080479655, -3.73299675372419, 40.32), 1480439633, 1480440533)
+2016-11-29 17:31:11,240 [ search-overseer][    schedulers][   DEBUG] Added location (56, (40.428491749484, -3.73323474255843, 40.32), 1480439989, 1480440889)
+2016-11-29 17:31:11,242 [ search-overseer][    schedulers][   DEBUG] Added location (57, (40.4293020492849, -3.7327587660063, 40.32), 1480440168, 1480441068)
+2016-11-29 17:31:11,242 [ search-overseer][    schedulers][   DEBUG] Added location (58, (40.4310793280023, -3.73434537187853, 40.32), 1480440397, 1480441297)
+2016-11-29 17:31:11,242 [ search-overseer][    schedulers][   DEBUG] Added location (59, (40.4266169918891, -3.73220346567265, 40.32), 1480440473, 1480441373)
+2016-11-29 17:31:11,242 [ search-overseer][    schedulers][   DEBUG] Added location (60, (40.4266302931721, -3.7367253737103, 40.32), 1480440522, 1480441422)
+2016-11-29 17:31:11,242 [ search-overseer][    schedulers][   DEBUG] Added location (61, (40.4276939011827, -3.73085490445301, 40.32), 1480440530, 1480441430)
+2016-11-29 17:31:11,242 [ search-overseer][    schedulers][   DEBUG] Added location (62, (40.4285351800605, -3.7318861539252, 40.32), 1480440591, 1480441491)
+2016-11-29 17:31:11,242 [ search-overseer][    schedulers][   DEBUG] Added location (63, (40.4276195092606, -3.73069625254878, 40.32), 1480440615, 1480441515)
+2016-11-29 17:31:11,242 [ search-overseer][        search][   DEBUG] Search queue empty, scheduling more items to scan
+2016-11-29 17:31:11,242 [ search-overseer][    schedulers][   DEBUG] Loading spawn points from database
+2016-11-29 17:31:11,242 [ search-overseer][        models][    INFO] Finding spawn points 3 steps away
+2016-11-29 17:31:11,661 [ search-overseer][    schedulers][    INFO] Total of 20 spawns to track
+2016-11-29 17:31:11,661 [ search-overseer][    schedulers][   DEBUG] Added location (1, (40.423059813064, -3.73156884416247, 40.32), 1480437367, 1480438267)
+2016-11-29 17:31:11,661 [ search-overseer][    schedulers][   DEBUG] Added location (2, (40.4258197149258, -3.73474203109873, 40.32), 1480437448, 1480438348)
+2016-11-29 17:31:11,661 [ search-overseer][    schedulers][   DEBUG] Added location (3, (40.4237426506527, -3.73751873245897, 40.32), 1480437533, 1480438433)
+2016-11-29 17:31:11,661 [ search-overseer][    schedulers][   DEBUG] Added location (4, (40.4213189108792, -3.7362493644141, 40.32), 1480438329, 1480439229)
+2016-11-29 17:31:11,661 [ search-overseer][    schedulers][   DEBUG] Added location (5, (40.4250655927903, -3.733472732509, 40.32), 1480438696, 1480439596)
+2016-11-29 17:31:11,663 [ search-overseer][    schedulers][   DEBUG] Added location (6, (40.4250553708734, -3.73379005417962, 40.32), 1480438725, 1480439625)
+2016-11-29 17:31:11,663 [ search-overseer][    schedulers][   DEBUG] Added location (7, (40.4247475835406, -3.733472732509, 40.32), 1480438725, 1480439625)
+2016-11-29 17:31:11,663 [ search-overseer][    schedulers][   DEBUG] Added location (8, (40.4246399685017, -3.73434537187853, 40.32), 1480438756, 1480439656)
+2016-11-29 17:31:11,663 [ search-overseer][    schedulers][   DEBUG] Added location (9, (40.4236140930081, -3.73410737783479, 40.32), 1480439126, 1480440026)
+2016-11-29 17:31:11,663 [ search-overseer][    schedulers][   DEBUG] Added location (10, (40.4231396226978, -3.73402804673495, 40.32), 1480439136, 1480440036)
+2016-11-29 17:31:11,664 [ search-overseer][    schedulers][   DEBUG] Added location (11, (40.4221934814335, -3.7362493644141, 40.32), 1480439608, 1480440508)
+2016-11-29 17:31:11,664 [ search-overseer][    schedulers][   DEBUG] Added location (12, (40.4238375031538, -3.73704271572154, 40.32), 1480439624, 1480440524)
+2016-11-29 17:31:11,664 [ search-overseer][    schedulers][   DEBUG] Added location (13, (40.4242450100084, -3.73426604040658, 40.32), 1480439805, 1480440705)
+2016-11-29 17:31:11,664 [ search-overseer][    schedulers][   DEBUG] Added location (14, (40.4213291398291, -3.73593202736375, 40.32), 1480439817, 1480440717)
+2016-11-29 17:31:11,664 [ search-overseer][    schedulers][   DEBUG] Added location (15, (40.4252220413757, -3.7335520627406, 40.32), 1480440423, 1480441323)
+2016-11-29 17:31:11,664 [ search-overseer][    schedulers][   DEBUG] Added location (16, (40.4252092635301, -3.73394871575914, 40.32), 1480440423, 1480441323)
+2016-11-29 17:31:11,664 [ search-overseer][    schedulers][   DEBUG] Added location (17, (40.424165506793, -3.73426604040658, 40.32), 1480440491, 1480441391)
+2016-11-29 17:31:11,664 [ search-overseer][    schedulers][   DEBUG] Added location (18, (40.4245218515157, -3.73307608321156, 40.32), 1480440512, 1480441412)
+2016-11-29 17:31:11,664 [ search-overseer][    schedulers][   DEBUG] Added location (19, (40.4224731367183, -3.73743939602602, 40.32), 1480440594, 1480441494)
+2016-11-29 17:31:11,664 [ search-overseer][    schedulers][   DEBUG] Added location (20, (40.4212317314974, -3.7364873685041, 40.32), 1480440598, 1480441498)
+2016-11-29 17:31:11,665 [ search-overseer][        search][   DEBUG] Search queue empty, scheduling more items to scan
+2016-11-29 17:31:11,665 [ search-overseer][    schedulers][   DEBUG] Loading spawn points from database
+2016-11-29 17:31:11,665 [ search-overseer][        models][    INFO] Finding spawn points 3 steps away
+2016-11-29 17:31:12,089 [ search-overseer][    schedulers][    INFO] Total of 32 spawns to track
+2016-11-29 17:31:12,091 [ search-overseer][    schedulers][   DEBUG] Added location (1, (40.4192587751076, -3.73109288323974, 40.32), 1480437156, 1480438056)
+2016-11-29 17:31:12,091 [ search-overseer][    schedulers][   DEBUG] Added location (2, (40.4218158100541, -3.73069625254878, 40.32), 1480437192, 1480438092)
+2016-11-29 17:31:12,091 [ search-overseer][    schedulers][   DEBUG] Added location (3, (40.423059813064, -3.73156884416247, 40.32), 1480437367, 1480438267)
+2016-11-29 17:31:12,091 [ search-overseer][    schedulers][   DEBUG] Added location (4, (40.4182353484005, -3.73077557843887, 40.32), 1480437422, 1480438322)
+2016-11-29 17:31:12,092 [ search-overseer][    schedulers][   DEBUG] Added location (5, (40.4203233780182, -3.73260010814791, 40.32), 1480437526, 1480438426)
+2016-11-29 17:31:12,092 [ search-overseer][    schedulers][   DEBUG] Added location (6, (40.4193842391682, -3.72966502726621, 40.32), 1480437556, 1480438456)
+2016-11-29 17:31:12,092 [ search-overseer][    schedulers][   DEBUG] Added location (7, (40.4182966102359, -3.7288717913151, 40.32), 1480437689, 1480438589)
+2016-11-29 17:31:12,092 [ search-overseer][    schedulers][   DEBUG] Added location (8, (40.4182915063677, -3.72903043751287, 40.32), 1480437768, 1480438668)
+2016-11-29 17:31:12,092 [ search-overseer][    schedulers][   DEBUG] Added location (9, (40.4205772301043, -3.73212413754972, 40.32), 1480438033, 1480438933)
+2016-11-29 17:31:12,092 [ search-overseer][    schedulers][   DEBUG] Added location (10, (40.4207260286921, -3.73244145078568, 40.32), 1480438136, 1480439036)
+2016-11-29 17:31:12,092 [ search-overseer][    schedulers][   DEBUG] Added location (11, (40.4193357315896, -3.73117220975007, 40.32), 1480438193, 1480439093)
+2016-11-29 17:31:12,092 [ search-overseer][    schedulers][   DEBUG] Added location (12, (40.421659349767, -3.73061692678273, 40.32), 1480438258, 1480439158)
+2016-11-29 17:31:12,092 [ search-overseer][    schedulers][   DEBUG] Added location (13, (40.4211925189443, -3.73029962495906, 40.32), 1480438545, 1480439445)
+2016-11-29 17:31:12,092 [ search-overseer][    schedulers][   DEBUG] Added location (14, (40.4203332463862, -3.7298236759451, 40.32), 1480438572, 1480439472)
+2016-11-29 17:31:12,094 [ search-overseer][    schedulers][   DEBUG] Added location (15, (40.4207209194947, -3.73260010814791, 40.32), 1480438681, 1480439581)
+2016-11-29 17:31:12,094 [ search-overseer][    schedulers][   DEBUG] Added location (16, (40.4202792607512, -3.72903043751287, 40.32), 1480439039, 1480439939)
+2016-11-29 17:31:12,094 [ search-overseer][    schedulers][   DEBUG] Added location (17, (40.4216261531076, -3.73164817141708, 40.32), 1480439255, 1480440155)
+2016-11-29 17:31:12,094 [ search-overseer][    schedulers][   DEBUG] Added location (18, (40.4183170233732, -3.72823721148639, 40.32), 1480439265, 1480440165)
+2016-11-29 17:31:12,094 [ search-overseer][    schedulers][   DEBUG] Added location (19, (40.421392739867, -3.7314895170319, 40.32), 1480439337, 1480440237)
+2016-11-29 17:31:12,095 [ search-overseer][    schedulers][   DEBUG] Added location (20, (40.4198664021094, -3.72950637908354, 40.32), 1480439407, 1480440307)
+2016-11-29 17:31:12,095 [ search-overseer][    schedulers][   DEBUG] Added location (21, (40.4198204500658, -3.73093423059121, 40.32), 1480439557, 1480440457)
+2016-11-29 17:31:12,095 [ search-overseer][    schedulers][   DEBUG] Added location (22, (40.4206155380993, -3.73093423059121, 40.32), 1480439844, 1480440744)
+2016-11-29 17:31:12,095 [ search-overseer][    schedulers][   DEBUG] Added location (23, (40.4198995779297, -3.7284751779917, 40.32), 1480439872, 1480440772)
+2016-11-29 17:31:12,095 [ search-overseer][    schedulers][   DEBUG] Added location (24, (40.4218107033968, -3.73085490445301, 40.32), 1480439985, 1480440885)
+2016-11-29 17:31:12,095 [ search-overseer][    schedulers][   DEBUG] Added location (25, (40.4202438694002, -3.73260010814791, 40.32), 1480440175, 1480441075)
+2016-11-29 17:31:12,095 [ search-overseer][    schedulers][   DEBUG] Added location (26, (40.4207876534461, -3.73299675372419, 40.32), 1480440185, 1480441085)
+2016-11-29 17:31:12,095 [ search-overseer][    schedulers][   DEBUG] Added location (27, (40.4181634964175, -3.73053760114074, 40.32), 1480440245, 1480441145)
+2016-11-29 17:31:12,095 [ search-overseer][    schedulers][   DEBUG] Added location (28, (40.4204105502233, -3.73236212229063, 40.32), 1480440282, 1480441182)
+2016-11-29 17:31:12,095 [ search-overseer][    schedulers][   DEBUG] Added location (29, (40.4182145467562, -3.72895111435195, 40.32), 1480440332, 1480441232)
+2016-11-29 17:31:12,095 [ search-overseer][    schedulers][   DEBUG] Added location (30, (40.4208051913778, -3.72998232512021, 40.32), 1480440341, 1480441241)
+2016-11-29 17:31:12,096 [ search-overseer][    schedulers][   DEBUG] Added location (31, (40.4213464277129, -3.73045827562279, 40.32), 1480440424, 1480441324)
+2016-11-29 17:31:12,096 [ search-overseer][    schedulers][   DEBUG] Added location (32, (40.4182302417292, -3.73093423059121, 40.32), 1480440659, 1480441559)
+2016-11-29 17:31:12,096 [ search-overseer][        search][   DEBUG] Search queue empty, scheduling more items to scan
+2016-11-29 17:31:12,096 [ search-overseer][    schedulers][   DEBUG] Loading spawn points from database
+2016-11-29 17:31:12,096 [ search-overseer][        models][    INFO] Finding spawn points 3 steps away
+2016-11-29 17:31:12,441 [    db-updater-0][        models][   DEBUG] Inserting items 0 to 1
+2016-11-29 17:31:12,519 [ search-overseer][    schedulers][    INFO] Total of 25 spawns to track
+2016-11-29 17:31:12,519 [ search-overseer][    schedulers][   DEBUG] Added location (1, (40.4250206725133, -3.72498511448807, 40.32), 1480437232, 1480438132)
+2016-11-29 17:31:12,519 [ search-overseer][    schedulers][   DEBUG] Added location (2, (40.4242541506494, -3.72657147721322, 40.32), 1480437302, 1480438202)
+2016-11-29 17:31:12,519 [ search-overseer][    schedulers][   DEBUG] Added location (3, (40.4218088464496, -3.7210194248161, 40.32), 1480437366, 1480438266)
+2016-11-29 17:31:12,519 [ search-overseer][    schedulers][   DEBUG] Added location (4, (40.4217267930002, -3.72109873556935, 40.32), 1480437402, 1480438302)
+2016-11-29 17:31:12,519 [ search-overseer][    schedulers][   DEBUG] Added location (5, (40.4217986614116, -3.72133666857369, 40.32), 1480437982, 1480438882)
+2016-11-29 17:31:12,520 [ search-overseer][    schedulers][   DEBUG] Added location (6, (40.424510511412, -3.72601624461411, 40.32), 1480438063, 1480438963)
+2016-11-29 17:31:12,520 [ search-overseer][    schedulers][   DEBUG] Added location (7, (40.4228710022067, -3.72260566345886, 40.32), 1480438078, 1480438978)
+2016-11-29 17:31:12,520 [ search-overseer][    schedulers][   DEBUG] Added location (8, (40.4222094771071, -3.72339880139363, 40.32), 1480438129, 1480439029)
+2016-11-29 17:31:12,520 [ search-overseer][    schedulers][   DEBUG] Added location (9, (40.4239977861055, -3.72712671589172, 40.32), 1480438523, 1480439423)
+2016-11-29 17:31:12,520 [ search-overseer][    schedulers][   DEBUG] Added location (10, (40.4240895724691, -3.7242712674536, 40.32), 1480438557, 1480439457)
+2016-11-29 17:31:12,520 [ search-overseer][    schedulers][   DEBUG] Added location (11, (40.4224918260313, -3.72450921534838, 40.32), 1480438867, 1480439767)
+2016-11-29 17:31:12,522 [ search-overseer][    schedulers][   DEBUG] Added location (12, (40.4233612890245, -3.72466784789863, 40.32), 1480438869, 1480439769)
+2016-11-29 17:31:12,522 [ search-overseer][    schedulers][   DEBUG] Added location (13, (40.4243306323821, -3.72419195173683, 40.32), 1480439023, 1480439923)
+2016-11-29 17:31:12,522 [ search-overseer][    schedulers][   DEBUG] Added location (14, (40.4241074110309, -3.72371606004192, 40.32), 1480439187, 1480440087)
+2016-11-29 17:31:12,522 [ search-overseer][    schedulers][   DEBUG] Added location (15, (40.4223633940594, -3.72355743046961, 40.32), 1480439199, 1480440099)
+2016-11-29 17:31:12,522 [ search-overseer][    schedulers][   DEBUG] Added location (16, (40.424410607326, -3.72665079665223, 40.32), 1480439292, 1480440192)
+2016-11-29 17:31:12,522 [ search-overseer][    schedulers][   DEBUG] Added location (17, (40.4220275303506, -3.72411263614414, 40.32), 1480439339, 1480440239)
+2016-11-29 17:31:12,523 [ search-overseer][    schedulers][   DEBUG] Added location (18, (40.4237460672285, -3.72506443144563, 40.32), 1480439543, 1480440443)
+2016-11-29 17:31:12,523 [ search-overseer][    schedulers][   DEBUG] Added location (19, (40.4227226974032, -3.72474716435988, 40.32), 1480439643, 1480440543)
+2016-11-29 17:31:12,523 [ search-overseer][    schedulers][   DEBUG] Added location (20, (40.4218787098547, -3.7237953750142, 40.32), 1480439871, 1480440771)
+2016-11-29 17:31:12,523 [ search-overseer][    schedulers][   DEBUG] Added location (21, (40.4229765066145, -3.7242712674536, 40.32), 1480440249, 1480441149)
+2016-11-29 17:31:12,523 [ search-overseer][    schedulers][   DEBUG] Added location (22, (40.4250950767713, -3.72514374852726, 40.32), 1480440429, 1480441329)
+2016-11-29 17:31:12,523 [ search-overseer][    schedulers][   DEBUG] Added location (23, (40.4216707624745, -3.72284360353638, 40.32), 1480440459, 1480441359)
+2016-11-29 17:31:12,523 [ search-overseer][    schedulers][   DEBUG] Added location (24, (40.4238999773324, -3.72522306573296, 40.32), 1480440641, 1480441541)
+2016-11-29 17:31:12,523 [ search-overseer][    schedulers][   DEBUG] Added location (25, (40.4222858878623, -3.7210194248161, 40.32), 1480440645, 1480441545)
+2016-11-29 17:31:12,523 [ search-overseer][        search][   DEBUG] Search queue empty, scheduling more items to scan
+2016-11-29 17:31:12,523 [ search-overseer][    schedulers][   DEBUG] Loading spawn points from database
+2016-11-29 17:31:12,523 [ search-overseer][        models][    INFO] Finding spawn points 3 steps away
+2016-11-29 17:31:12,532 [    db-updater-0][        models][   DEBUG] Upserted to MainWorker, 1 records (upsert queue remaining: 1)
+2016-11-29 17:31:12,532 [    db-updater-0][        models][   DEBUG] Inserting items 0 to 37
+2016-11-29 17:31:12,641 [    db-updater-0][        models][   DEBUG] Upserted to WorkerStatus, 37 records (upsert queue remaining: 0)
+2016-11-29 17:31:12,957 [ search-overseer][    schedulers][    INFO] Total of 48 spawns to track
+2016-11-29 17:31:12,959 [ search-overseer][    schedulers][   DEBUG] Added location (1, (40.4285996681125, -3.7199883963166, 40.32), 1480437190, 1480438090)
+2016-11-29 17:31:12,960 [ search-overseer][    schedulers][   DEBUG] Added location (2, (40.4288508886047, -3.71959185247819, 40.32), 1480437198, 1480438098)
+2016-11-29 17:31:12,960 [ search-overseer][    schedulers][   DEBUG] Added location (3, (40.429173969133, -3.71943323581154, 40.32), 1480437216, 1480438116)
+2016-11-29 17:31:12,960 [ search-overseer][    schedulers][   DEBUG] Added location (4, (40.4279961251019, -3.71649891702196, 40.32), 1480437247, 1480438147)
+2016-11-29 17:31:12,960 [ search-overseer][    schedulers][   DEBUG] Added location (5, (40.4283859903372, -3.71673682843195, 40.32), 1480437268, 1480438168)
+2016-11-29 17:31:12,960 [ search-overseer][    schedulers][   DEBUG] Added location (6, (40.4318049581863, -3.71919531174234, 40.32), 1480437378, 1480438278)
+2016-11-29 17:31:12,960 [ search-overseer][    schedulers][   DEBUG] Added location (7, (40.4308090392778, -3.71554728255262, 40.32), 1480437403, 1480438303)
+2016-11-29 17:31:12,960 [ search-overseer][    schedulers][   DEBUG] Added location (8, (40.4307549633532, -3.71475426748149, 40.32), 1480437445, 1480438345)
+2016-11-29 17:31:12,960 [ search-overseer][    schedulers][   DEBUG] Added location (9, (40.4309330647477, -3.71911600396747, 40.32), 1480437504, 1480438404)
+2016-11-29 17:31:12,960 [ search-overseer][    schedulers][   DEBUG] Added location (10, (40.4309228847944, -3.71943323581154, 40.32), 1480437515, 1480438415)
+2016-11-29 17:31:12,961 [ search-overseer][    schedulers][   DEBUG] Added location (11, (40.4270529490427, -3.71864015992452, 40.32), 1480437682, 1480438582)
+2016-11-29 17:31:12,961 [ search-overseer][    schedulers][   DEBUG] Added location (12, (40.4299117013652, -3.71626100672902, 40.32), 1480437708, 1480438608)
+2016-11-29 17:31:12,961 [ search-overseer][    schedulers][   DEBUG] Added location (13, (40.4299650863462, -3.71459566595675, 40.32), 1480437805, 1480438705)
+2016-11-29 17:31:12,961 [ search-overseer][    schedulers][   DEBUG] Added location (14, (40.4312637674877, -3.71871946695475, 40.32), 1480437809, 1480438709)
+2016-11-29 17:31:12,961 [ search-overseer][    schedulers][   DEBUG] Added location (15, (40.430637985377, -3.71840223957848, 40.32), 1480437982, 1480438882)
+2016-11-29 17:31:12,963 [ search-overseer][    schedulers][   DEBUG] Added location (16, (40.430068792346, -3.71879877410908, 40.32), 1480437982, 1480438882)
+2016-11-29 17:31:12,963 [ search-overseer][    schedulers][   DEBUG] Added location (17, (40.4269448258917, -3.71705404538289, 40.32), 1480438046, 1480438946)
+2016-11-29 17:31:12,963 [ search-overseer][    schedulers][   DEBUG] Added location (18, (40.4299816619806, -3.71903669631672, 40.32), 1480438063, 1480438963)
+2016-11-29 17:31:12,963 [ search-overseer][    schedulers][   DEBUG] Added location (19, (40.4288165370777, -3.71570588705631, 40.32), 1480438065, 1480438965)
+2016-11-29 17:31:12,963 [ search-overseer][    schedulers][   DEBUG] Added location (20, (40.4291269011455, -3.71594379474276, 40.32), 1480438072, 1480438972)
+2016-11-29 17:31:12,963 [ search-overseer][    schedulers][   DEBUG] Added location (21, (40.4271089131652, -3.71689543665919, 40.32), 1480438080, 1480438980)
+2016-11-29 17:31:12,963 [ search-overseer][    schedulers][   DEBUG] Added location (22, (40.4282034277711, -3.71499217069953, 40.32), 1480438368, 1480439268)
+2016-11-29 17:31:12,963 [ search-overseer][    schedulers][   DEBUG] Added location (23, (40.4278765442248, -3.72022632410886, 40.32), 1480438414, 1480439314)
+2016-11-29 17:31:12,963 [ search-overseer][    schedulers][   DEBUG] Added location (24, (40.4279547628901, -3.71530937672799, 40.32), 1480438685, 1480439585)
+2016-11-29 17:31:12,963 [ search-overseer][    schedulers][   DEBUG] Added location (25, (40.4308885345853, -3.71554728255262, 40.32), 1480438766, 1480439666)
+2016-11-29 17:31:12,964 [ search-overseer][    schedulers][   DEBUG] Added location (26, (40.426631909481, -3.71689543665919, 40.32), 1480438866, 1480439766)
+2016-11-29 17:31:12,964 [ search-overseer][    schedulers][   DEBUG] Added location (27, (40.4286537084172, -3.72078149330091, 40.32), 1480438899, 1480439799)
+2016-11-29 17:31:12,964 [ search-overseer][    schedulers][   DEBUG] Added location (28, (40.4281652942659, -3.71618170354628, 40.32), 1480438985, 1480439885)
+2016-11-29 17:31:12,964 [ search-overseer][    schedulers][   DEBUG] Added location (29, (40.4270319559716, -3.71681613248351, 40.32), 1480439045, 1480439945)
+2016-11-29 17:31:12,964 [ search-overseer][    schedulers][   DEBUG] Added location (30, (40.4272367233449, -3.71538867854541, 40.32), 1480439159, 1480440059)
+2016-11-29 17:31:12,966 [ search-overseer][    schedulers][   DEBUG] Added location (31, (40.4282803848108, -3.71507147202046, 40.32), 1480439285, 1480440185)
+2016-11-29 17:31:12,966 [ search-overseer][    schedulers][   DEBUG] Added location (32, (40.4296598061456, -3.71419916431712, 40.32), 1480439287, 1480440187)
+2016-11-29 17:31:12,966 [ search-overseer][    schedulers][   DEBUG] Added location (33, (40.430208658486, -3.71443706492852, 40.32), 1480439295, 1480440195)
+2016-11-29 17:31:12,966 [ search-overseer][    schedulers][   DEBUG] Added location (34, (40.429713887828, -3.71499217069953, 40.32), 1480439335, 1480440235)
+2016-11-29 17:31:12,966 [ search-overseer][    schedulers][   DEBUG] Added location (35, (40.427643137728, -3.72006770545659, 40.32), 1480439390, 1480440290)
+2016-11-29 17:31:12,967 [ search-overseer][    schedulers][   DEBUG] Added location (36, (40.4273118032428, -3.71800570815058, 40.32), 1480439446, 1480440346)
+2016-11-29 17:31:12,967 [ search-overseer][    schedulers][   DEBUG] Added location (37, (40.4268036262962, -3.71649891702196, 40.32), 1480439499, 1480440399)
+2016-11-29 17:31:12,967 [ search-overseer][    schedulers][   DEBUG] Added location (38, (40.4279484060283, -3.720464253018, 40.32), 1480440256, 1480441156)
+2016-11-29 17:31:12,967 [ search-overseer][    schedulers][   DEBUG] Added location (39, (40.430419851448, -3.71776779078315, 40.32), 1480440400, 1480441300)
+2016-11-29 17:31:12,967 [ search-overseer][    schedulers][   DEBUG] Added location (40, (40.4302481396375, -3.71816432034941, 40.32), 1480440407, 1480441307)
+2016-11-29 17:31:12,967 [ search-overseer][    schedulers][   DEBUG] Added location (41, (40.4307429212621, -3.71760917982542, 40.32), 1480440410, 1480441310)
+2016-11-29 17:31:12,967 [ search-overseer][    schedulers][   DEBUG] Added location (42, (40.4314424564448, -3.7156265847424, 40.32), 1480440560, 1480441460)
+2016-11-29 17:31:12,967 [ search-overseer][    schedulers][   DEBUG] Added location (43, (40.4314322867404, -3.71594379474276, 40.32), 1480440560, 1480441460)
+2016-11-29 17:31:12,967 [ search-overseer][    schedulers][   DEBUG] Added location (44, (40.4312758400469, -3.71586449205649, 40.32), 1480440562, 1480441462)
+2016-11-29 17:31:12,967 [ search-overseer][    schedulers][   DEBUG] Added location (45, (40.4316039875108, -3.71554728255262, 40.32), 1480440572, 1480441472)
+2016-11-29 17:31:12,967 [ search-overseer][    schedulers][   DEBUG] Added location (46, (40.4313502496209, -3.71602309755314, 40.32), 1480440574, 1480441474)
+2016-11-29 17:31:12,967 [ search-overseer][    schedulers][   DEBUG] Added location (47, (40.4318068725697, -3.7166575245045, 40.32), 1480440615, 1480441515)
+2016-11-29 17:31:12,969 [ search-overseer][    schedulers][   DEBUG] Added location (48, (40.4316249944547, -3.71737126431966, 40.32), 1480440656, 1480441556)
+2016-11-29 17:31:12,969 [ search-overseer][        search][   DEBUG] Search queue empty, scheduling more items to scan
+2016-11-29 17:31:12,969 [ search-overseer][    schedulers][   DEBUG] Loading spawn points from database
+2016-11-29 17:31:12,969 [ search-overseer][        models][    INFO] Finding spawn points 3 steps away
+2016-11-29 17:31:13,377 [ search-overseer][    schedulers][    INFO] Total of 48 spawns to track
+2016-11-29 17:31:13,377 [ search-overseer][    schedulers][   DEBUG] Added location (1, (40.4307496826911, -3.7248264809452, 40.32), 1480437217, 1480438117)
+2016-11-29 17:31:13,377 [ search-overseer][    schedulers][   DEBUG] Added location (2, (40.4312393948652, -3.72442989925937, 40.32), 1480437227, 1480438127)
+2016-11-29 17:31:13,377 [ search-overseer][    schedulers][   DEBUG] Added location (3, (40.4345107996416, -3.72157460269487, 40.32), 1480437235, 1480438135)
+2016-11-29 17:31:13,377 [ search-overseer][    schedulers][   DEBUG] Added location (4, (40.4304138572871, -3.7253817005166, 40.32), 1480437244, 1480438144)
+2016-11-29 17:31:13,377 [ search-overseer][    schedulers][   DEBUG] Added location (5, (40.4318049581863, -3.71919531174234, 40.32), 1480437378, 1480438278)
+2016-11-29 17:31:13,377 [ search-overseer][    schedulers][   DEBUG] Added location (6, (40.4303185850835, -3.72339880139363, 40.32), 1480437427, 1480438327)
+2016-11-29 17:31:13,378 [ search-overseer][    schedulers][   DEBUG] Added location (7, (40.429856896727, -3.72292291714373, 40.32), 1480437438, 1480438338)
+2016-11-29 17:31:13,378 [ search-overseer][    schedulers][   DEBUG] Added location (8, (40.430593241708, -3.72474716435988, 40.32), 1480437485, 1480438385)
+2016-11-29 17:31:13,378 [ search-overseer][    schedulers][   DEBUG] Added location (9, (40.4336522079435, -3.72355743046961, 40.32), 1480437509, 1480438409)
+2016-11-29 17:31:13,378 [ search-overseer][    schedulers][   DEBUG] Added location (10, (40.4309228847944, -3.71943323581154, 40.32), 1480437515, 1480438415)
+2016-11-29 17:31:13,378 [ search-overseer][    schedulers][   DEBUG] Added location (11, (40.4314157009723, -3.72141597982332, 40.32), 1480437607, 1480438507)
+2016-11-29 17:31:13,378 [ search-overseer][    schedulers][   DEBUG] Added location (12, (40.429854349038, -3.72300223087517, 40.32), 1480438024, 1480438924)
+2016-11-29 17:31:13,378 [ search-overseer][    schedulers][   DEBUG] Added location (13, (40.4315986263519, -3.72561965362262, 40.32), 1480438150, 1480439050)
+2016-11-29 17:31:13,378 [ search-overseer][    schedulers][   DEBUG] Added location (14, (40.4319884442671, -3.7258576078453, 40.32), 1480438158, 1480439058)
+2016-11-29 17:31:13,378 [ search-overseer][    schedulers][   DEBUG] Added location (15, (40.4324781499092, -3.72546101809453, 40.32), 1480438174, 1480439074)
+2016-11-29 17:31:13,378 [ search-overseer][    schedulers][   DEBUG] Added location (16, (40.4329678502862, -3.72506443144563, 40.32), 1480438211, 1480439111)
+2016-11-29 17:31:13,378 [ search-overseer][    schedulers][   DEBUG] Added location (17, (40.4329576526925, -3.7253817005166, 40.32), 1480438220, 1480439120)
+2016-11-29 17:31:13,378 [ search-overseer][    schedulers][   DEBUG] Added location (18, (40.4328012181914, -3.72530238306274, 40.32), 1480438279, 1480439179)
+2016-11-29 17:31:13,378 [ search-overseer][    schedulers][   DEBUG] Added location (19, (40.432585684099, -3.72458853156147, 40.32), 1480438301, 1480439201)
+2016-11-29 17:31:13,378 [ search-overseer][    schedulers][   DEBUG] Added location (20, (40.4312088051871, -3.7253817005166, 40.32), 1480438343, 1480439243)
+2016-11-29 17:31:13,378 [ search-overseer][    schedulers][   DEBUG] Added location (21, (40.4327115277558, -3.72561965362262, 40.32), 1480438496, 1480439396)
+2016-11-29 17:31:13,378 [ search-overseer][    schedulers][   DEBUG] Added location (22, (40.4308572138442, -3.723954005331, 40.32), 1480438822, 1480439722)
+2016-11-29 17:31:13,378 [ search-overseer][    schedulers][   DEBUG] Added location (23, (40.4344853293893, -3.72236772449813, 40.32), 1480438855, 1480439755)
+2016-11-29 17:31:13,378 [ search-overseer][    schedulers][   DEBUG] Added location (24, (40.4348955138842, -3.72197116204536, 40.32), 1480438862, 1480439762)
+2016-11-29 17:31:13,378 [ search-overseer][    schedulers][   DEBUG] Added location (25, (40.4303649514333, -3.72442989925937, 40.32), 1480438940, 1480439840)
+2016-11-29 17:31:13,378 [ search-overseer][    schedulers][   DEBUG] Added location (26, (40.4303624026271, -3.72450921534838, 40.32), 1480439061, 1480439961)
+2016-11-29 17:31:13,378 [ search-overseer][    schedulers][   DEBUG] Added location (27, (40.4307522317366, -3.72474716435988, 40.32), 1480439168, 1480440068)
+2016-11-29 17:31:13,378 [ search-overseer][    schedulers][   DEBUG] Added location (28, (40.4298105150793, -3.72189184992708, 40.32), 1480439169, 1480440069)
+2016-11-29 17:31:13,380 [ search-overseer][    schedulers][   DEBUG] Added location (29, (40.4306238256721, -3.7237953750142, 40.32), 1480439254, 1480440154)
+2016-11-29 17:31:13,380 [ search-overseer][    schedulers][   DEBUG] Added location (30, (40.430029125938, -3.72498511448807, 40.32), 1480439442, 1480440342)
+2016-11-29 17:31:13,380 [ search-overseer][    schedulers][   DEBUG] Added location (31, (40.4317499642753, -3.7258576078453, 40.32), 1480439527, 1480440427)
+2016-11-29 17:31:13,380 [ search-overseer][    schedulers][   DEBUG] Added location (32, (40.4318524039951, -3.72514374852726, 40.32), 1480439537, 1480440437)
+2016-11-29 17:31:13,380 [ search-overseer][    schedulers][   DEBUG] Added location (33, (40.4317856564317, -3.72474716435988, 40.32), 1480439551, 1480440451)
+2016-11-29 17:31:13,380 [ search-overseer][    schedulers][   DEBUG] Added location (34, (40.4314753283559, -3.72450921534838, 40.32), 1480439551, 1480440451)
+2016-11-29 17:31:13,380 [ search-overseer][    schedulers][   DEBUG] Added location (35, (40.4320551873877, -3.72625420069788, 40.32), 1480439664, 1480440564)
+2016-11-29 17:31:13,380 [ search-overseer][    schedulers][   DEBUG] Added location (36, (40.4345928362956, -3.72149529119705, 40.32), 1480439718, 1480440618)
+2016-11-29 17:31:13,380 [ search-overseer][    schedulers][   DEBUG] Added location (37, (40.4313652439543, -3.72546101809453, 40.32), 1480439993, 1480440893)
+2016-11-29 17:31:13,380 [ search-overseer][    schedulers][   DEBUG] Added location (38, (40.4312388849343, -3.72197116204536, 40.32), 1480440085, 1480440985)
+2016-11-29 17:31:13,380 [ search-overseer][    schedulers][   DEBUG] Added location (39, (40.4300877416624, -3.7231608587103, 40.32), 1480440094, 1480440994)
+2016-11-29 17:31:13,380 [ search-overseer][    schedulers][   DEBUG] Added location (40, (40.4329754978683, -3.7248264809452, 40.32), 1480440110, 1480441010)
+2016-11-29 17:31:13,380 [ search-overseer][    schedulers][   DEBUG] Added location (41, (40.4330294957118, -3.72561965362262, 40.32), 1480440118, 1480441018)
+2016-11-29 17:31:13,380 [ search-overseer][    schedulers][   DEBUG] Added location (42, (40.4327089780396, -3.72569897157277, 40.32), 1480440134, 1480441034)
+2016-11-29 17:31:13,380 [ search-overseer][    schedulers][   DEBUG] Added location (43, (40.4326371347526, -3.72546101809453, 40.32), 1480440179, 1480441079)
+2016-11-29 17:31:13,380 [ search-overseer][    schedulers][   DEBUG] Added location (44, (40.4324521853299, -3.7237953750142, 40.32), 1480440403, 1480441303)
+2016-11-29 17:31:13,380 [ search-overseer][    schedulers][   DEBUG] Added location (45, (40.432134213826, -3.7237953750142, 40.32), 1480440413, 1480441313)
+2016-11-29 17:31:13,380 [ search-overseer][    schedulers][   DEBUG] Added location (46, (40.4319013012292, -3.72609556318463, 40.32), 1480440487, 1480441387)
+2016-11-29 17:31:13,380 [ search-overseer][    schedulers][   DEBUG] Added location (47, (40.4345597245733, -3.72252635034786, 40.32), 1480440588, 1480441488)
+2016-11-29 17:31:13,380 [ search-overseer][    schedulers][   DEBUG] Added location (48, (40.4338315734302, -3.72292291714373, 40.32), 1480440611, 1480441511)
+2016-11-29 17:31:13,380 [ search-overseer][        search][   DEBUG] Search queue empty, scheduling more items to scan
+2016-11-29 17:31:13,380 [ search-overseer][    schedulers][   DEBUG] Loading spawn points from database
+2016-11-29 17:31:13,380 [ search-overseer][        models][    INFO] Finding spawn points 3 steps away
+2016-11-29 17:31:13,802 [ search-overseer][    schedulers][    INFO] Total of 48 spawns to track
+2016-11-29 17:31:13,802 [ search-overseer][    schedulers][   DEBUG] Added location (1, (40.4374732167914, -3.7258576078453, 40.32), 1480437361, 1480438261)
+2016-11-29 17:31:13,803 [ search-overseer][    schedulers][   DEBUG] Added location (2, (40.4373682287818, -3.72665079665223, 40.32), 1480437369, 1480438269)
+2016-11-29 17:31:13,803 [ search-overseer][    schedulers][   DEBUG] Added location (3, (40.4374553658486, -3.72641283870741, 40.32), 1480437371, 1480438271)
+2016-11-29 17:31:13,803 [ search-overseer][    schedulers][   DEBUG] Added location (4, (40.4348267227705, -3.72411263614414, 40.32), 1480437394, 1480438294)
+2016-11-29 17:31:13,803 [ search-overseer][    schedulers][   DEBUG] Added location (5, (40.4345474688684, -3.7253817005166, 40.32), 1480437420, 1480438320)
+2016-11-29 17:31:13,803 [ search-overseer][    schedulers][   DEBUG] Added location (6, (40.4330528800638, -3.72736467718637, 40.32), 1480437441, 1480438341)
+2016-11-29 17:31:13,805 [ search-overseer][    schedulers][   DEBUG] Added location (7, (40.4346269585474, -3.7253817005166, 40.32), 1480437449, 1480438349)
+2016-11-29 17:31:13,805 [ search-overseer][    schedulers][   DEBUG] Added location (8, (40.4364020221629, -3.72950637908354, 40.32), 1480437523, 1480438423)
+2016-11-29 17:31:13,805 [ search-overseer][    schedulers][   DEBUG] Added location (9, (40.4329657351778, -3.72760263959761, 40.32), 1480437802, 1480438702)
+2016-11-29 17:31:13,805 [ search-overseer][    schedulers][   DEBUG] Added location (10, (40.4329576526925, -3.7253817005166, 40.32), 1480438220, 1480439120)
+2016-11-29 17:31:13,805 [ search-overseer][    schedulers][   DEBUG] Added location (11, (40.4367807876498, -3.72514374852726, 40.32), 1480438391, 1480439291)
+2016-11-29 17:31:13,805 [ search-overseer][    schedulers][   DEBUG] Added location (12, (40.4350941133768, -3.72815788956607, 40.32), 1480438440, 1480439340)
+2016-11-29 17:31:13,805 [ search-overseer][    schedulers][   DEBUG] Added location (13, (40.435322372545, -3.7284751779917, 40.32), 1480438450, 1480439350)
+2016-11-29 17:31:13,805 [ search-overseer][    schedulers][   DEBUG] Added location (14, (40.4327115277558, -3.72561965362262, 40.32), 1480438496, 1480439396)
+2016-11-29 17:31:13,805 [ search-overseer][    schedulers][   DEBUG] Added location (15, (40.4357916458699, -3.72871314561356, 40.32), 1480438528, 1480439428)
+2016-11-29 17:31:13,805 [ search-overseer][    schedulers][   DEBUG] Added location (16, (40.433935321375, -3.72958570311285, 40.32), 1480438650, 1480439550)
+2016-11-29 17:31:13,806 [ search-overseer][    schedulers][   DEBUG] Added location (17, (40.4342558343878, -3.72950637908354, 40.32), 1480438658, 1480439558)
+2016-11-29 17:31:13,806 [ search-overseer][    schedulers][   DEBUG] Added location (18, (40.4343455340487, -3.72918908420686, 40.32), 1480438659, 1480439559)
+2016-11-29 17:31:13,806 [ search-overseer][    schedulers][   DEBUG] Added location (19, (40.4344968561163, -3.72942705517829, 40.32), 1480438711, 1480439611)
+2016-11-29 17:31:13,806 [ search-overseer][    schedulers][   DEBUG] Added location (20, (40.4329015492283, -3.72712671589172, 40.32), 1480438840, 1480439740)
+2016-11-29 17:31:13,806 [ search-overseer][    schedulers][   DEBUG] Added location (21, (40.4328297094478, -3.72688875571367, 40.32), 1480438918, 1480439818)
+2016-11-29 17:31:13,808 [ search-overseer][    schedulers][   DEBUG] Added location (22, (40.433073286013, -3.72673011621531, 40.32), 1480438926, 1480439826)
+2016-11-29 17:31:13,808 [ search-overseer][    schedulers][   DEBUG] Added location (23, (40.4331298206436, -3.72744399786605, 40.32), 1480438976, 1480439876)
+2016-11-29 17:31:13,808 [ search-overseer][    schedulers][   DEBUG] Added location (24, (40.4334401325259, -3.72768196064949, 40.32), 1480439022, 1480439922)
+2016-11-29 17:31:13,808 [ search-overseer][    schedulers][   DEBUG] Added location (25, (40.43399656758, -3.72768196064949, 40.32), 1480439029, 1480439929)
+2016-11-29 17:31:13,808 [ search-overseer][    schedulers][   DEBUG] Added location (26, (40.4340811602059, -3.7275233186698, 40.32), 1480439045, 1480439945)
+2016-11-29 17:31:13,809 [ search-overseer][    schedulers][   DEBUG] Added location (27, (40.433673502781, -3.72784060312543, 40.32), 1480439263, 1480440163)
+2016-11-29 17:31:13,809 [ search-overseer][    schedulers][   DEBUG] Added location (28, (40.4342324868749, -3.72776128182543, 40.32), 1480439292, 1480440192)
+2016-11-29 17:31:13,809 [ search-overseer][    schedulers][   DEBUG] Added location (29, (40.4376785194677, -3.72688875571367, 40.32), 1480439387, 1480440287)
+2016-11-29 17:31:13,809 [ search-overseer][    schedulers][   DEBUG] Added location (30, (40.4361019401259, -3.72895111435195, 40.32), 1480439767, 1480440667)
+2016-11-29 17:31:13,809 [ search-overseer][    schedulers][   DEBUG] Added location (31, (40.436735283829, -3.72903043751287, 40.32), 1480439867, 1480440767)
+2016-11-29 17:31:13,809 [ search-overseer][    schedulers][   DEBUG] Added location (32, (40.4328989983993, -3.72720603619921, 40.32), 1480440075, 1480440975)
+2016-11-29 17:31:13,809 [ search-overseer][    schedulers][   DEBUG] Added location (33, (40.437006499615, -3.72554033579654, 40.32), 1480440091, 1480440991)
+2016-11-29 17:31:13,809 [ search-overseer][    schedulers][   DEBUG] Added location (34, (40.4330294957118, -3.72561965362262, 40.32), 1480440118, 1480441018)
+2016-11-29 17:31:13,809 [ search-overseer][    schedulers][   DEBUG] Added location (35, (40.4346528948996, -3.7270473957083, 40.32), 1480440132, 1480441032)
+2016-11-29 17:31:13,809 [ search-overseer][    schedulers][   DEBUG] Added location (36, (40.4327089780396, -3.72569897157277, 40.32), 1480440134, 1480441034)
+2016-11-29 17:31:13,809 [ search-overseer][    schedulers][   DEBUG] Added location (37, (40.4340709553036, -3.72784060312543, 40.32), 1480440261, 1480441161)
+2016-11-29 17:31:13,809 [ search-overseer][    schedulers][   DEBUG] Added location (38, (40.4340943017959, -3.72958570311285, 40.32), 1480440379, 1480441279)
+2016-11-29 17:31:13,809 [ search-overseer][    schedulers][   DEBUG] Added location (39, (40.4343429816799, -3.72926840773995, 40.32), 1480440387, 1480441287)
+2016-11-29 17:31:13,809 [ search-overseer][    schedulers][   DEBUG] Added location (40, (40.4369916074164, -3.7284751779917, 40.32), 1480440410, 1480441310)
+2016-11-29 17:31:13,809 [ search-overseer][    schedulers][   DEBUG] Added location (41, (40.4342583869308, -3.72942705517829, 40.32), 1480440442, 1480441342)
+2016-11-29 17:31:13,809 [ search-overseer][    schedulers][   DEBUG] Added location (42, (40.4365095842035, -3.72863382294888, 40.32), 1480440451, 1480441351)
+2016-11-29 17:31:13,809 [ search-overseer][    schedulers][   DEBUG] Added location (43, (40.435960828947, -3.72839585569921, 40.32), 1480440489, 1480441389)
+2016-11-29 17:31:13,809 [ search-overseer][    schedulers][   DEBUG] Added location (44, (40.4361172522119, -3.7284751779917, 40.32), 1480440489, 1480441389)
+2016-11-29 17:31:13,809 [ search-overseer][    schedulers][   DEBUG] Added location (45, (40.4350320536996, -3.72514374852726, 40.32), 1480440572, 1480441472)
+2016-11-29 17:31:13,811 [ search-overseer][    schedulers][   DEBUG] Added location (46, (40.4354962386939, -3.72554033579654, 40.32), 1480440574, 1480441474)
+2016-11-29 17:31:13,811 [ search-overseer][    schedulers][   DEBUG] Added location (47, (40.4358218403457, -3.72530238306274, 40.32), 1480440582, 1480441482)
+2016-11-29 17:31:13,811 [ search-overseer][    schedulers][   DEBUG] Added location (48, (40.4362630676959, -3.72641283870741, 40.32), 1480440664, 1480441564)
+2016-11-29 17:31:13,811 [ search-overseer][        search][   DEBUG] Search queue empty, scheduling more items to scan
+2016-11-29 17:31:13,811 [ search-overseer][    schedulers][   DEBUG] Loading spawn points from database
+2016-11-29 17:31:13,811 [ search-overseer][        models][    INFO] Finding spawn points 3 steps away
+2016-11-29 17:31:14,246 [ search-overseer][    schedulers][    INFO] Total of 66 spawns to track
+2016-11-29 17:31:14,247 [ search-overseer][    schedulers][   DEBUG] Added location (1, (40.4326742967566, -3.73418670905867, 40.32), 1480437077, 1480437977)
+2016-11-29 17:31:14,247 [ search-overseer][    schedulers][   DEBUG] Added location (2, (40.4319693262621, -3.73632869898674, 40.32), 1480437184, 1480438084)
+2016-11-29 17:31:14,247 [ search-overseer][    schedulers][   DEBUG] Added location (3, (40.4307766869807, -3.73386938490736, 40.32), 1480437194, 1480438094)
+2016-11-29 17:31:14,247 [ search-overseer][    schedulers][   DEBUG] Added location (4, (40.4312845750696, -3.73537669230063, 40.32), 1480437203, 1480438103)
+2016-11-29 17:31:14,249 [ search-overseer][    schedulers][   DEBUG] Added location (5, (40.4327795911781, -3.73585269341123, 40.32), 1480437207, 1480438107)
+2016-11-29 17:31:14,249 [ search-overseer][    schedulers][   DEBUG] Added location (6, (40.4323126147829, -3.73307608321156, 40.32), 1480437210, 1480438110)
+2016-11-29 17:31:14,249 [ search-overseer][    schedulers][   DEBUG] Added location (7, (40.4320818026111, -3.73283809512156, 40.32), 1480437275, 1480438175)
+2016-11-29 17:31:14,249 [ search-overseer][    schedulers][   DEBUG] Added location (8, (40.4308431163908, -3.73180682629845, 40.32), 1480437323, 1480438223)
+2016-11-29 17:31:14,249 [ search-overseer][    schedulers][   DEBUG] Added location (9, (40.4312638736224, -3.7335520627406, 40.32), 1480437387, 1480438287)
+2016-11-29 17:31:14,250 [ search-overseer][    schedulers][   DEBUG] Added location (10, (40.4316590274687, -3.73609069564088, 40.32), 1480437394, 1480438294)
+2016-11-29 17:31:14,250 [ search-overseer][    schedulers][   DEBUG] Added location (11, (40.4346973357335, -3.73307608321156, 40.32), 1480437419, 1480438319)
+2016-11-29 17:31:14,250 [ search-overseer][    schedulers][   DEBUG] Added location (12, (40.4303971025949, -3.73331407241791, 40.32), 1480437540, 1480438440)
+2016-11-29 17:31:14,250 [ search-overseer][    schedulers][   DEBUG] Added location (13, (40.4324431988664, -3.7314895170319, 40.32), 1480437544, 1480438444)
+2016-11-29 17:31:14,250 [ search-overseer][    schedulers][   DEBUG] Added location (14, (40.4323307660102, -3.73498002811923, 40.32), 1480437589, 1480438489)
+2016-11-29 17:31:14,250 [ search-overseer][    schedulers][   DEBUG] Added location (15, (40.4330538607488, -3.73474203109873, 40.32), 1480437597, 1480438497)
+2016-11-29 17:31:14,250 [ search-overseer][    schedulers][   DEBUG] Added location (16, (40.4312717900667, -3.73577335958273, 40.32), 1480437621, 1480438521)
+2016-11-29 17:31:14,250 [ search-overseer][    schedulers][   DEBUG] Added location (17, (40.4323767749379, -3.7335520627406, 40.32), 1480437636, 1480438536)
+2016-11-29 17:31:14,250 [ search-overseer][    schedulers][   DEBUG] Added location (18, (40.4327384514168, -3.73466269900663, 40.32), 1480437908, 1480438808)
+2016-11-29 17:31:14,250 [ search-overseer][    schedulers][   DEBUG] Added location (19, (40.4349306919618, -3.73323474255843, 40.32), 1480437912, 1480438812)
+2016-11-29 17:31:14,252 [ search-overseer][    schedulers][   DEBUG] Added location (20, (40.4346590010361, -3.73426604040658, 40.32), 1480437942, 1480438842)
+2016-11-29 17:31:14,252 [ search-overseer][    schedulers][   DEBUG] Added location (21, (40.433079421951, -3.73394871575914, 40.32), 1480437954, 1480438854)
+2016-11-29 17:31:14,252 [ search-overseer][    schedulers][   DEBUG] Added location (22, (40.4323461044224, -3.73450403519452, 40.32), 1480438003, 1480438903)
+2016-11-29 17:31:14,252 [ search-overseer][    schedulers][   DEBUG] Added location (23, (40.4315665134409, -3.73402804673495, 40.32), 1480438012, 1480438912)
+2016-11-29 17:31:14,252 [ search-overseer][    schedulers][   DEBUG] Added location (24, (40.4331844684932, -3.73315541282298, 40.32), 1480438200, 1480439100)
+2016-11-29 17:31:14,253 [ search-overseer][    schedulers][   DEBUG] Added location (25, (40.4311534300993, -3.73204480955084, 40.32), 1480438211, 1480439111)
+2016-11-29 17:31:14,253 [ search-overseer][    schedulers][   DEBUG] Added location (26, (40.4325385588836, -3.73593202736375, 40.32), 1480438323, 1480439223)
+2016-11-29 17:31:14,253 [ search-overseer][    schedulers][   DEBUG] Added location (27, (40.4310202808957, -3.73371072357591, 40.32), 1480438525, 1480439425)
+2016-11-29 17:31:14,253 [ search-overseer][    schedulers][   DEBUG] Added location (28, (40.4314126383, -3.73386938490736, 40.32), 1480438659, 1480439559)
+2016-11-29 17:31:14,253 [ search-overseer][    schedulers][   DEBUG] Added location (29, (40.4318790883769, -3.73172749879575, 40.32), 1480438702, 1480439602)
+2016-11-29 17:31:14,253 [ search-overseer][    schedulers][   DEBUG] Added location (30, (40.4331435770938, -3.73442470347451, 40.32), 1480438718, 1480439618)
+2016-11-29 17:31:14,253 [ search-overseer][    schedulers][   DEBUG] Added location (31, (40.4337303838356, -3.73101355685345, 40.32), 1480438748, 1480439648)
+2016-11-29 17:31:14,253 [ search-overseer][    schedulers][   DEBUG] Added location (32, (40.4345820679693, -3.73418670905867, 40.32), 1480438868, 1480439768)
+2016-11-29 17:31:14,253 [ search-overseer][    schedulers][   DEBUG] Added location (33, (40.4323818858728, -3.73339340240144, 40.32), 1480438891, 1480439791)
+2016-11-29 17:31:14,255 [ search-overseer][    schedulers][   DEBUG] Added location (34, (40.4326821975946, -3.73640803368341, 40.32), 1480438938, 1480439838)
+2016-11-29 17:31:14,255 [ search-overseer][    schedulers][   DEBUG] Added location (35, (40.4319074861077, -3.73331407241791, 40.32), 1480438987, 1480439887)
+2016-11-29 17:31:14,255 [ search-overseer][    schedulers][   DEBUG] Added location (36, (40.4316460066542, -3.73402804673495, 40.32), 1480439006, 1480439906)
+2016-11-29 17:31:14,255 [ search-overseer][    schedulers][   DEBUG] Added location (37, (40.432510200917, -3.73434537187853, 40.32), 1480439013, 1480439913)
+2016-11-29 17:31:14,255 [ search-overseer][    schedulers][   DEBUG] Added location (38, (40.4310818840648, -3.73426604040658, 40.32), 1480439096, 1480439996)
+2016-11-29 17:31:14,256 [ search-overseer][    schedulers][   DEBUG] Added location (39, (40.4328741685808, -3.73291742436085, 40.32), 1480439109, 1480440009)
+2016-11-29 17:31:14,256 [ search-overseer][    schedulers][   DEBUG] Added location (40, (40.4327614561948, -3.73394871575914, 40.32), 1480439131, 1480440031)
+2016-11-29 17:31:14,256 [ search-overseer][    schedulers][   DEBUG] Added location (41, (40.4314075266916, -3.73402804673495, 40.32), 1480439300, 1480440200)
+2016-11-29 17:31:14,256 [ search-overseer][    schedulers][   DEBUG] Added location (42, (40.431656229651, -3.73371072357591, 40.32), 1480439392, 1480440292)
+2016-11-29 17:31:14,256 [ search-overseer][    schedulers][   DEBUG] Added location (43, (40.4347563812185, -3.73371072357591, 40.32), 1480439484, 1480440384)
+2016-11-29 17:31:14,256 [ search-overseer][    schedulers][   DEBUG] Added location (44, (40.4306228094268, -3.73371072357591, 40.32), 1480439573, 1480440473)
+2016-11-29 17:31:14,256 [ search-overseer][    schedulers][   DEBUG] Added location (45, (40.43080479655, -3.73299675372419, 40.32), 1480439633, 1480440533)
+2016-11-29 17:31:14,256 [ search-overseer][    schedulers][   DEBUG] Added location (46, (40.431251095343, -3.73394871575914, 40.32), 1480439690, 1480440590)
+2016-11-29 17:31:14,256 [ search-overseer][    schedulers][   DEBUG] Added location (47, (40.4333513715334, -3.73537669230063, 40.32), 1480439759, 1480440659)
+2016-11-29 17:31:14,256 [ search-overseer][    schedulers][   DEBUG] Added location (48, (40.4328074515565, -3.73252077940477, 40.32), 1480439763, 1480440663)
+2016-11-29 17:31:14,256 [ search-overseer][    schedulers][   DEBUG] Added location (49, (40.4333743811253, -3.73466269900663, 40.32), 1480439868, 1480440768)
+2016-11-29 17:31:14,257 [ search-overseer][    schedulers][   DEBUG] Added location (50, (40.4325025323174, -3.73458336703856, 40.32), 1480439959, 1480440859)
+2016-11-29 17:31:14,257 [ search-overseer][    schedulers][   DEBUG] Added location (51, (40.4313947466484, -3.73442470347451, 40.32), 1480439975, 1480440875)
+2016-11-29 17:31:14,257 [ search-overseer][    schedulers][   DEBUG] Added location (52, (40.4333127833583, -3.73410737783479, 40.32), 1480440000, 1480440900)
+2016-11-29 17:31:14,257 [ search-overseer][    schedulers][   DEBUG] Added location (53, (40.4321226750635, -3.73156884416247, 40.32), 1480440007, 1480440907)
+2016-11-29 17:31:14,257 [ search-overseer][    schedulers][   DEBUG] Added location (54, (40.4323742193829, -3.73363139309624, 40.32), 1480440023, 1480440923)
+2016-11-29 17:31:14,259 [ search-overseer][    schedulers][   DEBUG] Added location (55, (40.4326408034193, -3.7327587660063, 40.32), 1480440067, 1480440967)
+2016-11-29 17:31:14,259 [ search-overseer][    schedulers][   DEBUG] Added location (56, (40.432968989436, -3.73244145078568, 40.32), 1480440291, 1480441191)
+2016-11-29 17:31:14,259 [ search-overseer][    schedulers][   DEBUG] Added location (57, (40.4328383919413, -3.73402804673495, 40.32), 1480440306, 1480441206)
+2016-11-29 17:31:14,259 [ search-overseer][    schedulers][   DEBUG] Added location (58, (40.4342765995899, -3.73133086314289, 40.32), 1480440319, 1480441219)
+2016-11-29 17:31:14,259 [ search-overseer][    schedulers][   DEBUG] Added location (59, (40.4321533195905, -3.73061692678273, 40.32), 1480440368, 1480441268)
+2016-11-29 17:31:14,259 [ search-overseer][    schedulers][   DEBUG] Added location (60, (40.4310793280023, -3.73434537187853, 40.32), 1480440397, 1480441297)
+2016-11-29 17:31:14,259 [ search-overseer][    schedulers][   DEBUG] Added location (61, (40.4333025590974, -3.73442470347451, 40.32), 1480440531, 1480441431)
+2016-11-29 17:31:14,259 [ search-overseer][    schedulers][   DEBUG] Added location (62, (40.4320664715864, -3.73331407241791, 40.32), 1480440538, 1480441438)
+2016-11-29 17:31:14,259 [ search-overseer][    schedulers][   DEBUG] Added location (63, (40.4316766728408, -3.73307608321156, 40.32), 1480440624, 1480441524)
+2016-11-29 17:31:14,259 [ search-overseer][    schedulers][   DEBUG] Added location (64, (40.4327509504017, -3.73180682629845, 40.32), 1480440644, 1480441544)
+2016-11-29 17:31:14,259 [ search-overseer][    schedulers][   DEBUG] Added location (65, (40.432174337986, -3.73490069565503, 40.32), 1480440655, 1480441555)
+2016-11-29 17:31:14,259 [ search-overseer][    schedulers][   DEBUG] Added location (66, (40.4322793925824, -3.73410737783479, 40.32), 1480440668, 1480441568)
+2016-11-29 17:31:14,259 [ search-overseer][        search][   DEBUG] Search queue empty, scheduling more items to scan
+2016-11-29 17:31:14,259 [ search-overseer][    schedulers][   DEBUG] Loading spawn points from database
+2016-11-29 17:31:14,259 [ search-overseer][        models][    INFO] Finding spawn points 3 steps away
+2016-11-29 17:31:14,667 [ search-overseer][    schedulers][    INFO] Total of 21 spawns to track
+2016-11-29 17:31:14,667 [ search-overseer][    schedulers][   DEBUG] Added location (1, (40.4319693262621, -3.73632869898674, 40.32), 1480437184, 1480438084)
+2016-11-29 17:31:14,667 [ search-overseer][    schedulers][   DEBUG] Added location (2, (40.4323463254171, -3.7369633800327, 40.32), 1480437215, 1480438115)
+2016-11-29 17:31:14,667 [ search-overseer][    schedulers][   DEBUG] Added location (3, (40.4313514772928, -3.73823276593628, 40.32), 1480437354, 1480438254)
+2016-11-29 17:31:14,667 [ search-overseer][    schedulers][   DEBUG] Added location (4, (40.4316590274687, -3.73609069564088, 40.32), 1480437394, 1480438294)
+2016-11-29 17:31:14,668 [ search-overseer][    schedulers][   DEBUG] Added location (5, (40.4331542022747, -3.73902614824796, 40.32), 1480437484, 1480438384)
+2016-11-29 17:31:14,668 [ search-overseer][    schedulers][   DEBUG] Added location (6, (40.4332336930489, -3.73902614824796, 40.32), 1480437492, 1480438392)
+2016-11-29 17:31:14,668 [ search-overseer][    schedulers][   DEBUG] Added location (7, (40.4304180194771, -3.73759806901594, 40.32), 1480437551, 1480438451)
+2016-11-29 17:31:14,668 [ search-overseer][    schedulers][   DEBUG] Added location (8, (40.4304129024024, -3.73775674250193, 40.32), 1480437561, 1480438461)
+2016-11-29 17:31:14,670 [ search-overseer][    schedulers][   DEBUG] Added location (9, (40.4312717900667, -3.73577335958273, 40.32), 1480437621, 1480438521)
+2016-11-29 17:31:14,670 [ search-overseer][    schedulers][   DEBUG] Added location (10, (40.4308695320692, -3.74085097462611, 40.32), 1480437987, 1480438887)
+2016-11-29 17:31:14,670 [ search-overseer][    schedulers][   DEBUG] Added location (11, (40.4310051767785, -3.73664603851755, 40.32), 1480438291, 1480439191)
+2016-11-29 17:31:14,670 [ search-overseer][    schedulers][   DEBUG] Added location (12, (40.4325385588836, -3.73593202736375, 40.32), 1480438323, 1480439223)
+2016-11-29 17:31:14,670 [ search-overseer][    schedulers][   DEBUG] Added location (13, (40.4308028418777, -3.74045426765932, 40.32), 1480438662, 1480439562)
+2016-11-29 17:31:14,670 [ search-overseer][    schedulers][   DEBUG] Added location (14, (40.4313257091789, -3.73656670344881, 40.32), 1480438769, 1480439669)
+2016-11-29 17:31:14,670 [ search-overseer][    schedulers][   DEBUG] Added location (15, (40.4326821975946, -3.73640803368341, 40.32), 1480438938, 1480439838)
+2016-11-29 17:31:14,671 [ search-overseer][    schedulers][   DEBUG] Added location (16, (40.4317206172957, -3.73664603851755, 40.32), 1480438951, 1480439851)
+2016-11-29 17:31:14,671 [ search-overseer][    schedulers][   DEBUG] Added location (17, (40.4304821621057, -3.73807409096211, 40.32), 1480439025, 1480439925)
+2016-11-29 17:31:14,671 [ search-overseer][    schedulers][   DEBUG] Added location (18, (40.4312513310242, -3.73640803368341, 40.32), 1480439364, 1480440264)
+2016-11-29 17:31:14,671 [ search-overseer][    schedulers][   DEBUG] Added location (19, (40.431797552322, -3.7367253737103, 40.32), 1480439393, 1480440293)
+2016-11-29 17:31:14,671 [ search-overseer][    schedulers][   DEBUG] Added location (20, (40.430913058629, -3.73950218358748, 40.32), 1480440182, 1480441082)
+2016-11-29 17:31:14,671 [ search-overseer][    schedulers][   DEBUG] Added location (21, (40.4324849929712, -3.74005756379262, 40.32), 1480440419, 1480441319)
+2016-11-29 17:31:14,671 [ search-overseer][        search][   DEBUG] Search queue empty, scheduling more items to scan
+2016-11-29 17:31:14,671 [ search-overseer][    schedulers][   DEBUG] Loading spawn points from database
+2016-11-29 17:31:14,671 [ search-overseer][        models][    INFO] Finding spawn points 3 steps away
+2016-11-29 17:31:15,079 [ search-overseer][    schedulers][    INFO] Total of 10 spawns to track
+2016-11-29 17:31:15,079 [ search-overseer][    schedulers][   DEBUG] Added location (1, (40.4272384111469, -3.74251717773855, 40.32), 1480437566, 1480438466)
+2016-11-29 17:31:15,081 [ search-overseer][    schedulers][   DEBUG] Added location (2, (40.4259099748418, -3.74180308399449, 40.32), 1480437618, 1480438518)
+2016-11-29 17:31:15,081 [ search-overseer][    schedulers][   DEBUG] Added location (3, (40.4248430551806, -3.74037492663797, 40.32), 1480437678, 1480438578)
+2016-11-29 17:31:15,081 [ search-overseer][    schedulers][   DEBUG] Added location (4, (40.4277432797058, -3.7367253737103, 40.32), 1480438588, 1480439488)
+2016-11-29 17:31:15,082 [ search-overseer][    schedulers][   DEBUG] Added location (5, (40.4278023136789, -3.73736005971709, 40.32), 1480439275, 1480440175)
+2016-11-29 17:31:15,082 [ search-overseer][    schedulers][   DEBUG] Added location (6, (40.4252508051603, -3.74005756379262, 40.32), 1480439573, 1480440473)
+2016-11-29 17:31:15,082 [ search-overseer][    schedulers][   DEBUG] Added location (7, (40.4249481586647, -3.73958152324477, 40.32), 1480440155, 1480441055)
+2016-11-29 17:31:15,082 [ search-overseer][    schedulers][   DEBUG] Added location (8, (40.4254841885119, -3.74021624496729, 40.32), 1480440157, 1480441057)
+2016-11-29 17:31:15,082 [ search-overseer][    schedulers][   DEBUG] Added location (9, (40.4262176154116, -3.73966086302606, 40.32), 1480440442, 1480441342)
+2016-11-29 17:31:15,082 [ search-overseer][    schedulers][   DEBUG] Added location (10, (40.4266302931721, -3.7367253737103, 40.32), 1480440522, 1480441422)
+2016-11-29 17:31:15,082 [ search-overseer][        search][   DEBUG] Search queue empty, scheduling more items to scan
+2016-11-29 17:31:15,082 [ search-overseer][    schedulers][   DEBUG] Loading spawn points from database
+2016-11-29 17:31:15,082 [ search-overseer][        models][    INFO] Finding spawn points 3 steps away
+2016-11-29 17:31:15,444 [    db-updater-0][        models][   DEBUG] Inserting items 0 to 1
+2016-11-29 17:31:15,494 [ search-overseer][    schedulers][    INFO] Total of 26 spawns to track
+2016-11-29 17:31:15,494 [ search-overseer][    schedulers][   DEBUG] Added location (1, (40.4201369843646, -3.74331062701135, 40.32), 1480437284, 1480438184)
+2016-11-29 17:31:15,494 [ search-overseer][    schedulers][   DEBUG] Added location (2, (40.4225964718995, -3.74100965828084, 40.32), 1480437312, 1480438212)
+2016-11-29 17:31:15,496 [ search-overseer][    schedulers][   DEBUG] Added location (3, (40.4219628404641, -3.73847077932766, 40.32), 1480437370, 1480438270)
+2016-11-29 17:31:15,496 [ search-overseer][    schedulers][   DEBUG] Added location (4, (40.4217064075534, -3.73902614824796, 40.32), 1480437378, 1480438278)
+2016-11-29 17:31:15,496 [ search-overseer][    schedulers][   DEBUG] Added location (5, (40.4236300278189, -3.74100965828084, 40.32), 1480437519, 1480438419)
+2016-11-29 17:31:15,496 [ search-overseer][    schedulers][   DEBUG] Added location (6, (40.4234863847055, -3.74053360880468, 40.32), 1480437528, 1480438428)
+2016-11-29 17:31:15,496 [ search-overseer][    schedulers][   DEBUG] Added location (7, (40.4215476120794, -3.74394539535689, 40.32), 1480437554, 1480438454)
+2016-11-29 17:31:15,496 [ search-overseer][    schedulers][   DEBUG] Added location (8, (40.4215399227298, -3.74418343553226, 40.32), 1480437554, 1480438454)
+2016-11-29 17:31:15,496 [ search-overseer][    schedulers][   DEBUG] Added location (9, (40.4211805692452, -3.73807409096211, 40.32), 1480437590, 1480438490)
+2016-11-29 17:31:15,496 [ search-overseer][    schedulers][   DEBUG] Added location (10, (40.4213472590383, -3.73783607943095, 40.32), 1480437688, 1480438588)
+2016-11-29 17:31:15,496 [ search-overseer][    schedulers][   DEBUG] Added location (11, (40.4192416599416, -3.73902614824796, 40.32), 1480438815, 1480439715)
+2016-11-29 17:31:15,496 [ search-overseer][    schedulers][   DEBUG] Added location (12, (40.4216116695385, -3.7419617706252, 40.32), 1480439163, 1480440063)
+2016-11-29 17:31:15,496 [ search-overseer][    schedulers][   DEBUG] Added location (13, (40.4201831006302, -3.74188242724785, 40.32), 1480439588, 1480440488)
+2016-11-29 17:31:15,496 [ search-overseer][    schedulers][   DEBUG] Added location (14, (40.4209522818066, -3.73775674250193, 40.32), 1480439603, 1480440503)
+2016-11-29 17:31:15,496 [ search-overseer][    schedulers][   DEBUG] Added location (15, (40.4222167109678, -3.73799475366104, 40.32), 1480439875, 1480440775)
+2016-11-29 17:31:15,496 [ search-overseer][    schedulers][   DEBUG] Added location (16, (40.4192520452128, -3.74116834243158, 40.32), 1480439936, 1480440836)
+2016-11-29 17:31:15,496 [ search-overseer][    schedulers][   DEBUG] Added location (17, (40.4209215760837, -3.73870879383514, 40.32), 1480440088, 1480440988)
+2016-11-29 17:31:15,496 [ search-overseer][    schedulers][   DEBUG] Added location (18, (40.4214550903659, -3.7394228440542, 40.32), 1480440111, 1480441011)
+2016-11-29 17:31:15,496 [ search-overseer][    schedulers][   DEBUG] Added location (19, (40.4216833705336, -3.73974020293136, 40.32), 1480440132, 1480441032)
+2016-11-29 17:31:15,496 [ search-overseer][    schedulers][   DEBUG] Added location (20, (40.4217372745389, -3.74053360880468, 40.32), 1480440168, 1480441068)
+2016-11-29 17:31:15,497 [ search-overseer][    schedulers][   DEBUG] Added location (21, (40.4216142310772, -3.74188242724785, 40.32), 1480440399, 1480441299)
+2016-11-29 17:31:15,497 [ search-overseer][    schedulers][   DEBUG] Added location (22, (40.4213807029451, -3.73926416535968, 40.32), 1480440482, 1480441382)
+2016-11-29 17:31:15,497 [ search-overseer][    schedulers][   DEBUG] Added location (23, (40.4191725356428, -3.74116834243158, 40.32), 1480440508, 1480441408)
+2016-11-29 17:31:15,497 [ search-overseer][    schedulers][   DEBUG] Added location (24, (40.4232965124429, -3.73902614824796, 40.32), 1480440579, 1480441479)
+2016-11-29 17:31:15,497 [ search-overseer][    schedulers][   DEBUG] Added location (25, (40.4224731367183, -3.73743939602602, 40.32), 1480440594, 1480441494)
+2016-11-29 17:31:15,497 [ search-overseer][    schedulers][   DEBUG] Added location (26, (40.4232990718425, -3.73894680945874, 40.32), 1480440609, 1480441509)
+2016-11-29 17:31:15,497 [ search-overseer][        search][   DEBUG] Search queue empty, scheduling more items to scan
+2016-11-29 17:31:15,497 [ search-overseer][    schedulers][   DEBUG] Loading spawn points from database
+2016-11-29 17:31:15,497 [ search-overseer][        models][    INFO] Finding spawn points 3 steps away
+2016-11-29 17:31:15,538 [    db-updater-0][        models][   DEBUG] Upserted to MainWorker, 1 records (upsert queue remaining: 1)
+2016-11-29 17:31:15,538 [    db-updater-0][        models][   DEBUG] Inserting items 0 to 37
+2016-11-29 17:31:15,641 [    db-updater-0][        models][   DEBUG] Upserted to WorkerStatus, 37 records (upsert queue remaining: 0)

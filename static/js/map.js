@@ -65,6 +65,15 @@ var audio = new Audio('static/sounds/ding.mp3')
 // Functions
 //
 
+function iniciar_localizacion{
+var match = window.location.search.match(/\?lat=(.*?)&lon=(.*)/);
+    if (match != null) {
+        var  lat = match[1]
+            ,lon = match[2];
+        centerMap(lat, lon, 14);
+    }
+}
+
 function excludePokemon (id) { // eslint-disable-line no-unused-vars
   $selectExclude.val(
     $selectExclude.val().concat(id)
@@ -191,7 +200,7 @@ function initMap () { // eslint-disable-line no-unused-vars
   locationMarker = createLocationMarker()
   createMyLocationButton()
   initSidebar()
-
+  iniciar_localizacion();
   $('#scan-here').on('click', function () {
     var loc = map.getCenter()
     changeLocation(loc.lat(), loc.lng())
